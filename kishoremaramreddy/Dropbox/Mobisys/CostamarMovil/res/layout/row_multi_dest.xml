@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- layout que representa una fila de un vuelo multidestino -->
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android" 
+    	android:id="@+id/tr"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent">
+		<TextView android:id="@+id/row_origin" 
+		    android:layout_weight="1"
+		    android:layout_margin="1dp"
+		    android:gravity="center_horizontal"
+		    android:textColor="@android:color/black"
+		    android:textSize="14sp"
+		    android:padding="4dp" 
+		    android:background="@android:color/white"
+		    android:singleLine="true"
+		    android:ellipsize="end"/>
+		<TextView android:id="@+id/row_dest" 
+		    android:layout_weight="1"
+		    android:layout_margin="1dp"
+		    android:gravity="center_horizontal"
+		    android:textColor="@android:color/black"
+		    android:padding="4dp" 
+		    android:textSize="14sp"
+		    android:background="@android:color/white"
+		    android:singleLine="true"
+		    android:ellipsize="end"/>
+		<TextView android:id="@+id/row_date" 
+		    android:layout_weight="1"
+		    android:layout_margin="1dp"
+		    android:gravity="center_horizontal"
+		    android:textColor="@android:color/black"
+		    android:padding="4dp" 
+		    android:textSize="14sp"
+		    android:background="@android:color/white"/>
+		<ImageButton android:id="@+id/remove" 
+		    android:layout_weight="1"
+		    android:layout_margin="1dp"
+		    android:gravity="center_horizontal"
+		    android:textColor="@android:color/black"
+		    android:padding="5dp" 
+		    android:src="@drawable/remove"
+		    android:background="@android:color/white"/>
+</TableRow>
+	

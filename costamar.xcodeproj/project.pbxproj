@@ -1,0 +1,1218 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		694F2BE8DA3F4A649EFF24C6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E16C299A27524265B4F67B46 /* libPods.a */; };
+		9E0B0DA718374F5000E69898 /* ImageSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E0B0DA618374F5000E69898 /* ImageSpinner.m */; };
+		9E0B0DA91837500900E69898 /* loading_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E0B0DA81837500900E69898 /* loading_icon.png */; };
+		9E0EAD4D1855AEA7001F98F6 /* CITMultiDestCityData.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E0EAD4C1855AEA7001F98F6 /* CITMultiDestCityData.m */; };
+		9E0EAD501855AEBC001F98F6 /* CITMultiDestData.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E0EAD4F1855AEBC001F98F6 /* CITMultiDestData.m */; };
+		9E0EAD531855B52A001F98F6 /* CITMultiDestHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E0EAD521855B52A001F98F6 /* CITMultiDestHeaderCell.m */; };
+		9E13E405184708A200CA0A43 /* CITTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E13E404184708A200CA0A43 /* CITTextField.m */; };
+		9E13E408184732D600CA0A43 /* CITDateField.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E13E407184732D500CA0A43 /* CITDateField.m */; };
+		9E13E40A184743F200CA0A43 /* options.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9E13E409184743F200CA0A43 /* options.plist */; };
+		9E1D56411851C29B00C53249 /* CITReservationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E1D56401851C29B00C53249 /* CITReservationViewController.m */; };
+		9E1D564A1851DD9300C53249 /* RadioButton-Unselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E1D56481851DD9100C53249 /* RadioButton-Unselected.png */; };
+		9E1D564B1851DD9300C53249 /* RadioButton-Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E1D56491851DD9200C53249 /* RadioButton-Selected.png */; };
+		9E1D56511851E84900C53249 /* CITHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E1D56501851E84900C53249 /* CITHistoryViewController.m */; };
+		9E1D56531851EA4800C53249 /* avion_verde.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E1D56521851EA4800C53249 /* avion_verde.png */; };
+		9E1D56561851EAFA00C53249 /* CITHistoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E1D56551851EAFA00C53249 /* CITHistoryCell.m */; };
+		9E1D56591851EC1500C53249 /* CostamarModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9E1D56571851EC1500C53249 /* CostamarModel.xcdatamodeld */; };
+		9E203C621835060B0047D5AC /* CITMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E203C611835060B0047D5AC /* CITMenuViewController.m */; };
+		9E203C6518350F700047D5AC /* CITNetworkEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E203C6418350F700047D5AC /* CITNetworkEngine.m */; };
+		9E203C69183511460047D5AC /* CITUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E203C68183511460047D5AC /* CITUtils.m */; };
+		9E203C6C183514FD0047D5AC /* CITInitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E203C6B183514FD0047D5AC /* CITInitialViewController.m */; };
+		9E203C72183517F70047D5AC /* btn_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E203C70183517F70047D5AC /* btn_normal.png */; };
+		9E203C73183517F70047D5AC /* btn_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E203C71183517F70047D5AC /* btn_pressed.png */; };
+		9E203DE7184DB6E000D633E1 /* CITConfigurationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E203DE6184DB6E000D633E1 /* CITConfigurationViewController.m */; };
+		9E203DEA184DC93B00D633E1 /* CITSearchResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E203DE9184DC93B00D633E1 /* CITSearchResultsViewController.m */; };
+		9E203DED184DC96500D633E1 /* CITSearchResultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E203DEC184DC96500D633E1 /* CITSearchResultCell.m */; };
+		9E203DF0184E006800D633E1 /* CITFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E203DEF184E006700D633E1 /* CITFilterViewController.m */; };
+		9E203DF3184E04ED00D633E1 /* CITFilterSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E203DF2184E04ED00D633E1 /* CITFilterSelectViewController.m */; };
+		9E203DF6184E058600D633E1 /* CITFilterSelectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E203DF5184E058600D633E1 /* CITFilterSelectCell.m */; };
+		9E203DF9184E067300D633E1 /* CITFlightDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E203DF8184E067300D633E1 /* CITFlightDetailViewController.m */; };
+		9E203DFC184E269200D633E1 /* CITFlightData.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E203DFB184E269200D633E1 /* CITFlightData.m */; };
+		9E203DFF184E26A000D633E1 /* CITFlightSegmentData.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E203DFE184E26A000D633E1 /* CITFlightSegmentData.m */; };
+		9E2A6A5D185EFD9B00D81B30 /* CITPassengerInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2A6A5C185EFD9B00D81B30 /* CITPassengerInfoViewController.m */; };
+		9E2A6A60185EFF3500D81B30 /* CITAdultPassengerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2A6A5F185EFF3500D81B30 /* CITAdultPassengerCell.m */; };
+		9E2A6A63185EFF4300D81B30 /* CITChildPassengerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2A6A62185EFF4300D81B30 /* CITChildPassengerCell.m */; };
+		9E2A6A66185EFF5300D81B30 /* CITInfantPassengerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2A6A65185EFF5300D81B30 /* CITInfantPassengerCell.m */; };
+		9E2A6A69185F2C5F00D81B30 /* CITFlightPayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2A6A68185F2C5F00D81B30 /* CITFlightPayer.m */; };
+		9E2A6A6F185F2D6A00D81B30 /* CITPax.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2A6A6E185F2D6A00D81B30 /* CITPax.m */; };
+		9E2A6A72185F2E5700D81B30 /* CITBookingPayment.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2A6A71185F2E5700D81B30 /* CITBookingPayment.m */; };
+		9E2D0FDC18655D1A00DAB186 /* CITPassengerInfoTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2D0FDB18655D1A00DAB186 /* CITPassengerInfoTextField.m */; };
+		9E2D0FDF18656C0D00DAB186 /* CITPassengerInfoSelectButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2D0FDE18656C0D00DAB186 /* CITPassengerInfoSelectButton.m */; };
+		9E2D0FE21865AF0600DAB186 /* CITBookingResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2D0FE11865AF0600DAB186 /* CITBookingResponse.m */; };
+		9E2D0FE51865BD8500DAB186 /* CITBookingResponseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2D0FE41865BD8500DAB186 /* CITBookingResponseViewController.m */; };
+		9E2D0FFB1865D60000DAB186 /* CITFlightAlertViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2D0FFA1865D60000DAB186 /* CITFlightAlertViewCell.m */; };
+		9E2D0FFE1865D6E400DAB186 /* CITFlightAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2D0FFD1865D6E400DAB186 /* CITFlightAlertViewController.m */; };
+		9E2D10041865D9D500DAB186 /* CITFlightAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2D10031865D9D500DAB186 /* CITFlightAlert.m */; };
+		9E2D10071865DA1900DAB186 /* CITSearchHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2D10061865DA1900DAB186 /* CITSearchHistory.m */; };
+		9E2D100A1865DE2B00DAB186 /* CITNewFlightAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2D10091865DE2B00DAB186 /* CITNewFlightAlertViewController.m */; };
+		9E3343A51835233600C0249D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E3343A41835233600C0249D /* Default-568h@2x.png */; };
+		9E3343AB1835253100C0249D /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E3343A91835253100C0249D /* logo.png */; };
+		9E34F276186847C100DE95B0 /* CITFilterParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E34F275186847C100DE95B0 /* CITFilterParams.m */; };
+		9E351A21186C06B100DAE644 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9E351A23186C06B100DAE644 /* Localizable.strings */; };
+		9E3756251835EAB3005C0738 /* select.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E3756241835EAB3005C0738 /* select.png */; };
+		9E37562C1836329F005C0738 /* costamar_nav_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E37562A1836329F005C0738 /* costamar_nav_bg.png */; };
+		9E37562D1836329F005C0738 /* costamar_nav_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E37562B1836329F005C0738 /* costamar_nav_bg@2x.png */; };
+		9E37563218363949005C0738 /* CITSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E37563118363949005C0738 /* CITSearchViewController.m */; };
+		9E37564418363E78005C0738 /* calendar_week.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E37563318363E77005C0738 /* calendar_week.png */; };
+		9E37564518363E78005C0738 /* child.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E37563418363E77005C0738 /* child.png */; };
+		9E37564618363E78005C0738 /* infant.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E37563518363E77005C0738 /* infant.png */; };
+		9E37564718363E78005C0738 /* orange_rect.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E37563618363E77005C0738 /* orange_rect.png */; };
+		9E37564818363E78005C0738 /* seat_combo_box_pressed.9.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E37563718363E77005C0738 /* seat_combo_box_pressed.9.png */; };
+		9E37564918363E78005C0738 /* seat_combo_box.9.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E37563818363E78005C0738 /* seat_combo_box.9.png */; };
+		9E37564A18363E78005C0738 /* seat_tariff_9.9.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E37563918363E78005C0738 /* seat_tariff_9.9.png */; };
+		9E37564B18363E78005C0738 /* tab_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E37563A18363E78005C0738 /* tab_pressed.png */; };
+		9E37564C18363E78005C0738 /* two_way.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E37563B18363E78005C0738 /* two_way.png */; };
+		9E37564D18363E78005C0738 /* adult.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E37563C18363E78005C0738 /* adult.png */; };
+		9E37564E18363E78005C0738 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E37563D18363E78005C0738 /* background.png */; };
+		9E37564F18363E78005C0738 /* blue_rect.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E37563E18363E78005C0738 /* blue_rect.png */; };
+		9E37565018363E78005C0738 /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E37563F18363E78005C0738 /* calendar.png */; };
+		9E37565118363E78005C0738 /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E37564018363E78005C0738 /* image.jpg */; };
+		9E37565218363E78005C0738 /* seat_tariff_pressed9.9.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E37564118363E78005C0738 /* seat_tariff_pressed9.9.png */; };
+		9E37565418363E78005C0738 /* tab_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E37564318363E78005C0738 /* tab_normal.png */; };
+		9E37565E18366A43005C0738 /* select_location.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E37565D18366A43005C0738 /* select_location.png */; };
+		9E4641BF184F711700057F28 /* CITCountryData.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E4641BE184F711600057F28 /* CITCountryData.m */; };
+		9E482A2E183A0D1900F8921D /* CITMultiDestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E482A2D183A0D1900F8921D /* CITMultiDestViewController.m */; };
+		9E482A30183A14CE00F8921D /* remove.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E482A2F183A14CE00F8921D /* remove.png */; };
+		9E482A33183A175100F8921D /* CITMultiDestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E482A32183A175100F8921D /* CITMultiDestCell.m */; };
+		9E482A36183A3CDE00F8921D /* CITAddNewDestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E482A35183A3CDD00F8921D /* CITAddNewDestViewController.m */; };
+		9E482A3F183A471F00F8921D /* historial.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E482A37183A471E00F8921D /* historial.png */; };
+		9E482A40183A471F00F8921D /* alerts.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E482A38183A471E00F8921D /* alerts.png */; };
+		9E482A41183A471F00F8921D /* car.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E482A39183A471E00F8921D /* car.png */; };
+		9E482A42183A471F00F8921D /* config.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E482A3A183A471E00F8921D /* config.png */; };
+		9E482A43183A471F00F8921D /* cruise.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E482A3B183A471E00F8921D /* cruise.png */; };
+		9E482A44183A471F00F8921D /* flights.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E482A3C183A471E00F8921D /* flights.png */; };
+		9E482A45183A471F00F8921D /* hotel.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E482A3D183A471E00F8921D /* hotel.png */; };
+		9E482A46183A471F00F8921D /* tour.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E482A3E183A471E00F8921D /* tour.png */; };
+		9E482A49183A634D00F8921D /* MMPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E482A47183A634D00F8921D /* MMPickerView.m */; };
+		9E54AB56183B875900C1BD09 /* CITFlightDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E54AB55183B875900C1BD09 /* CITFlightDataSource.m */; };
+		9E54AB59183B897900C1BD09 /* CITFlightAutocompleteCellFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E54AB58183B897900C1BD09 /* CITFlightAutocompleteCellFactory.m */; };
+		9E54AB5C183B9B7B00C1BD09 /* CITFlightSuggestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E54AB5B183B9B7B00C1BD09 /* CITFlightSuggestion.m */; };
+		9E5B1A601848B34800E3F843 /* CITJourneyData.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5B1A5F1848B34800E3F843 /* CITJourneyData.m */; };
+		9E5D5B601834AC5B0041F85F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E5D5B5F1834AC5B0041F85F /* Foundation.framework */; };
+		9E5D5B621834AC5B0041F85F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E5D5B611834AC5B0041F85F /* CoreGraphics.framework */; };
+		9E5D5B641834AC5B0041F85F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E5D5B631834AC5B0041F85F /* UIKit.framework */; };
+		9E5D5B6A1834AC5B0041F85F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9E5D5B681834AC5B0041F85F /* InfoPlist.strings */; };
+		9E5D5B6C1834AC5B0041F85F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5D5B6B1834AC5B0041F85F /* main.m */; };
+		9E5D5B701834AC5B0041F85F /* CITAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5D5B6F1834AC5B0041F85F /* CITAppDelegate.m */; };
+		9E5D5B7B1834AC5B0041F85F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E5D5B7A1834AC5B0041F85F /* Images.xcassets */; };
+		9E7FAD36185C60DE00EE6448 /* CITAgreementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7FAD35185C60DE00EE6448 /* CITAgreementViewController.m */; };
+		9E7FAD39185C649600EE6448 /* CITPaymentOptionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7FAD38185C649600EE6448 /* CITPaymentOptionCell.m */; };
+		9E80C4BD1862FF2A00AEBAAC /* CITPayerDetailsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E80C4BC1862FF2A00AEBAAC /* CITPayerDetailsCell.m */; };
+		9EA287DF186C4F210014507C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9EA287D9186C4F210014507C /* InfoPlist.strings */; };
+		9EA287E0186C4F210014507C /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EA287DB186C4F210014507C /* iPhone.storyboard */; };
+		9EA287E1186C4F210014507C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9EA287DD186C4F210014507C /* Localizable.strings */; };
+		9EA287E5186C4F340014507C /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EA287E3186C4F340014507C /* iPhone.storyboard */; };
+		9ED32D44185B2ACE00349428 /* CITPaymentOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ED32D43185B2ACE00349428 /* CITPaymentOption.m */; };
+		9EE1B3AE1866FBAB00870AE3 /* CITFlightJourney.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE1B3AD1866FBAB00870AE3 /* CITFlightJourney.m */; };
+		9EE200781849B25D004217CC /* CITSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE200771849B25D004217CC /* CITSegmentedControl.m */; };
+		9EE2007B1849C004004217CC /* CITDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE2007A1849C004004217CC /* CITDatePicker.m */; };
+		9EE549C018504FC3007F3A40 /* CITSearchDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE549BF18504FC3007F3A40 /* CITSearchDetailCell.m */; };
+		9EE549C318505BD5007F3A40 /* CITSearchResultSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE549C218505BD5007F3A40 /* CITSearchResultSectionHeaderView.m */; };
+		9EE549C618508B47007F3A40 /* CITSearchDetailSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE549C518508B47007F3A40 /* CITSearchDetailSectionHeaderView.m */; };
+		9EE549C91850A053007F3A40 /* CITFlightDetailData.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE549C81850A053007F3A40 /* CITFlightDetailData.m */; };
+		9EE549CC1850A1F1007F3A40 /* CITSegmentGroupData.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE549CB1850A1F1007F3A40 /* CITSegmentGroupData.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5B45E1C6B6624FE2BBC74BC6 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		9E0B0DA518374F5000E69898 /* ImageSpinner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageSpinner.h; sourceTree = "<group>"; };
+		9E0B0DA618374F5000E69898 /* ImageSpinner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageSpinner.m; sourceTree = "<group>"; };
+		9E0B0DA81837500900E69898 /* loading_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loading_icon.png; path = ../../../../kishoremaramreddy/Desktop/loading_icon.png; sourceTree = "<group>"; };
+		9E0EAD4B1855AEA7001F98F6 /* CITMultiDestCityData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITMultiDestCityData.h; sourceTree = "<group>"; };
+		9E0EAD4C1855AEA7001F98F6 /* CITMultiDestCityData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITMultiDestCityData.m; sourceTree = "<group>"; };
+		9E0EAD4E1855AEBC001F98F6 /* CITMultiDestData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITMultiDestData.h; sourceTree = "<group>"; };
+		9E0EAD4F1855AEBC001F98F6 /* CITMultiDestData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITMultiDestData.m; sourceTree = "<group>"; };
+		9E0EAD511855B52A001F98F6 /* CITMultiDestHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITMultiDestHeaderCell.h; sourceTree = "<group>"; };
+		9E0EAD521855B52A001F98F6 /* CITMultiDestHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITMultiDestHeaderCell.m; sourceTree = "<group>"; };
+		9E13E403184708A200CA0A43 /* CITTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITTextField.h; sourceTree = "<group>"; };
+		9E13E404184708A200CA0A43 /* CITTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITTextField.m; sourceTree = "<group>"; };
+		9E13E406184732D500CA0A43 /* CITDateField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITDateField.h; sourceTree = "<group>"; };
+		9E13E407184732D500CA0A43 /* CITDateField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITDateField.m; sourceTree = "<group>"; };
+		9E13E409184743F200CA0A43 /* options.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = options.plist; sourceTree = "<group>"; };
+		9E1D563F1851C29B00C53249 /* CITReservationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITReservationViewController.h; sourceTree = "<group>"; };
+		9E1D56401851C29B00C53249 /* CITReservationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITReservationViewController.m; sourceTree = "<group>"; };
+		9E1D56481851DD9100C53249 /* RadioButton-Unselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "RadioButton-Unselected.png"; path = "../../../../kishoremaramreddy/Dropbox/Mobisys/CostamarMovil/res/RadioButton-Unselected.png"; sourceTree = "<group>"; };
+		9E1D56491851DD9200C53249 /* RadioButton-Selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "RadioButton-Selected.png"; path = "../../../../kishoremaramreddy/Dropbox/Mobisys/CostamarMovil/res/RadioButton-Selected.png"; sourceTree = "<group>"; };
+		9E1D564F1851E84900C53249 /* CITHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITHistoryViewController.h; sourceTree = "<group>"; };
+		9E1D56501851E84900C53249 /* CITHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITHistoryViewController.m; sourceTree = "<group>"; };
+		9E1D56521851EA4800C53249 /* avion_verde.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = avion_verde.png; path = "../../../../kishoremaramreddy/Dropbox/Mobisys/CostamarMovil/res/drawable-xhdpi/avion_verde.png"; sourceTree = "<group>"; };
+		9E1D56541851EAF900C53249 /* CITHistoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITHistoryCell.h; sourceTree = "<group>"; };
+		9E1D56551851EAFA00C53249 /* CITHistoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITHistoryCell.m; sourceTree = "<group>"; };
+		9E1D56581851EC1500C53249 /* CostamarModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CostamarModel.xcdatamodel; sourceTree = "<group>"; };
+		9E203C601835060B0047D5AC /* CITMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITMenuViewController.h; sourceTree = "<group>"; };
+		9E203C611835060B0047D5AC /* CITMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITMenuViewController.m; sourceTree = "<group>"; };
+		9E203C6318350F700047D5AC /* CITNetworkEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITNetworkEngine.h; sourceTree = "<group>"; };
+		9E203C6418350F700047D5AC /* CITNetworkEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITNetworkEngine.m; sourceTree = "<group>"; };
+		9E203C67183511460047D5AC /* CITUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITUtils.h; sourceTree = "<group>"; };
+		9E203C68183511460047D5AC /* CITUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITUtils.m; sourceTree = "<group>"; };
+		9E203C6A183514FD0047D5AC /* CITInitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITInitialViewController.h; sourceTree = "<group>"; };
+		9E203C6B183514FD0047D5AC /* CITInitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITInitialViewController.m; sourceTree = "<group>"; };
+		9E203C70183517F70047D5AC /* btn_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_normal.png; path = "../../../Android/CostamarMovil/res/drawable-xhdpi/btn_normal.png"; sourceTree = "<group>"; };
+		9E203C71183517F70047D5AC /* btn_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_pressed.png; path = "../../../Android/CostamarMovil/res/drawable-xhdpi/btn_pressed.png"; sourceTree = "<group>"; };
+		9E203DE5184DB6E000D633E1 /* CITConfigurationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITConfigurationViewController.h; sourceTree = "<group>"; };
+		9E203DE6184DB6E000D633E1 /* CITConfigurationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITConfigurationViewController.m; sourceTree = "<group>"; };
+		9E203DE8184DC93B00D633E1 /* CITSearchResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITSearchResultsViewController.h; sourceTree = "<group>"; };
+		9E203DE9184DC93B00D633E1 /* CITSearchResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITSearchResultsViewController.m; sourceTree = "<group>"; };
+		9E203DEB184DC96500D633E1 /* CITSearchResultCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITSearchResultCell.h; sourceTree = "<group>"; };
+		9E203DEC184DC96500D633E1 /* CITSearchResultCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITSearchResultCell.m; sourceTree = "<group>"; };
+		9E203DEE184E006700D633E1 /* CITFilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITFilterViewController.h; sourceTree = "<group>"; };
+		9E203DEF184E006700D633E1 /* CITFilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITFilterViewController.m; sourceTree = "<group>"; };
+		9E203DF1184E04ED00D633E1 /* CITFilterSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITFilterSelectViewController.h; sourceTree = "<group>"; };
+		9E203DF2184E04ED00D633E1 /* CITFilterSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITFilterSelectViewController.m; sourceTree = "<group>"; };
+		9E203DF4184E058600D633E1 /* CITFilterSelectCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITFilterSelectCell.h; sourceTree = "<group>"; };
+		9E203DF5184E058600D633E1 /* CITFilterSelectCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITFilterSelectCell.m; sourceTree = "<group>"; };
+		9E203DF7184E067300D633E1 /* CITFlightDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITFlightDetailViewController.h; sourceTree = "<group>"; };
+		9E203DF8184E067300D633E1 /* CITFlightDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITFlightDetailViewController.m; sourceTree = "<group>"; };
+		9E203DFA184E269200D633E1 /* CITFlightData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITFlightData.h; sourceTree = "<group>"; };
+		9E203DFB184E269200D633E1 /* CITFlightData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITFlightData.m; sourceTree = "<group>"; };
+		9E203DFD184E26A000D633E1 /* CITFlightSegmentData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITFlightSegmentData.h; sourceTree = "<group>"; };
+		9E203DFE184E26A000D633E1 /* CITFlightSegmentData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITFlightSegmentData.m; sourceTree = "<group>"; };
+		9E2A6A5B185EFD9B00D81B30 /* CITPassengerInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITPassengerInfoViewController.h; sourceTree = "<group>"; };
+		9E2A6A5C185EFD9B00D81B30 /* CITPassengerInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITPassengerInfoViewController.m; sourceTree = "<group>"; };
+		9E2A6A5E185EFF3500D81B30 /* CITAdultPassengerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITAdultPassengerCell.h; sourceTree = "<group>"; };
+		9E2A6A5F185EFF3500D81B30 /* CITAdultPassengerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITAdultPassengerCell.m; sourceTree = "<group>"; };
+		9E2A6A61185EFF4300D81B30 /* CITChildPassengerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITChildPassengerCell.h; sourceTree = "<group>"; };
+		9E2A6A62185EFF4300D81B30 /* CITChildPassengerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITChildPassengerCell.m; sourceTree = "<group>"; };
+		9E2A6A64185EFF5300D81B30 /* CITInfantPassengerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITInfantPassengerCell.h; sourceTree = "<group>"; };
+		9E2A6A65185EFF5300D81B30 /* CITInfantPassengerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITInfantPassengerCell.m; sourceTree = "<group>"; };
+		9E2A6A67185F2C5F00D81B30 /* CITFlightPayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITFlightPayer.h; sourceTree = "<group>"; };
+		9E2A6A68185F2C5F00D81B30 /* CITFlightPayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITFlightPayer.m; sourceTree = "<group>"; };
+		9E2A6A6D185F2D6A00D81B30 /* CITPax.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITPax.h; sourceTree = "<group>"; };
+		9E2A6A6E185F2D6A00D81B30 /* CITPax.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITPax.m; sourceTree = "<group>"; };
+		9E2A6A70185F2E5700D81B30 /* CITBookingPayment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITBookingPayment.h; sourceTree = "<group>"; };
+		9E2A6A71185F2E5700D81B30 /* CITBookingPayment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITBookingPayment.m; sourceTree = "<group>"; };
+		9E2D0FDA18655D1A00DAB186 /* CITPassengerInfoTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITPassengerInfoTextField.h; sourceTree = "<group>"; };
+		9E2D0FDB18655D1A00DAB186 /* CITPassengerInfoTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITPassengerInfoTextField.m; sourceTree = "<group>"; };
+		9E2D0FDD18656C0D00DAB186 /* CITPassengerInfoSelectButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITPassengerInfoSelectButton.h; sourceTree = "<group>"; };
+		9E2D0FDE18656C0D00DAB186 /* CITPassengerInfoSelectButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITPassengerInfoSelectButton.m; sourceTree = "<group>"; };
+		9E2D0FE01865AF0600DAB186 /* CITBookingResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITBookingResponse.h; sourceTree = "<group>"; };
+		9E2D0FE11865AF0600DAB186 /* CITBookingResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITBookingResponse.m; sourceTree = "<group>"; };
+		9E2D0FE31865BD8500DAB186 /* CITBookingResponseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITBookingResponseViewController.h; sourceTree = "<group>"; };
+		9E2D0FE41865BD8500DAB186 /* CITBookingResponseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITBookingResponseViewController.m; sourceTree = "<group>"; };
+		9E2D0FF91865D60000DAB186 /* CITFlightAlertViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITFlightAlertViewCell.h; sourceTree = "<group>"; };
+		9E2D0FFA1865D60000DAB186 /* CITFlightAlertViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITFlightAlertViewCell.m; sourceTree = "<group>"; };
+		9E2D0FFC1865D6E400DAB186 /* CITFlightAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITFlightAlertViewController.h; sourceTree = "<group>"; };
+		9E2D0FFD1865D6E400DAB186 /* CITFlightAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITFlightAlertViewController.m; sourceTree = "<group>"; };
+		9E2D10021865D9D500DAB186 /* CITFlightAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITFlightAlert.h; sourceTree = "<group>"; };
+		9E2D10031865D9D500DAB186 /* CITFlightAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITFlightAlert.m; sourceTree = "<group>"; };
+		9E2D10051865DA1900DAB186 /* CITSearchHistory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITSearchHistory.h; sourceTree = "<group>"; };
+		9E2D10061865DA1900DAB186 /* CITSearchHistory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITSearchHistory.m; sourceTree = "<group>"; };
+		9E2D10081865DE2B00DAB186 /* CITNewFlightAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITNewFlightAlertViewController.h; sourceTree = "<group>"; };
+		9E2D10091865DE2B00DAB186 /* CITNewFlightAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITNewFlightAlertViewController.m; sourceTree = "<group>"; };
+		9E3343A41835233600C0249D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9E3343A91835253100C0249D /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = "../../../Android/CostamarMovil/res/drawable-xhdpi/logo.png"; sourceTree = "<group>"; };
+		9E34F274186847C100DE95B0 /* CITFilterParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITFilterParams.h; sourceTree = "<group>"; };
+		9E34F275186847C100DE95B0 /* CITFilterParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITFilterParams.m; sourceTree = "<group>"; };
+		9E351A22186C06B100DAE644 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9E3756241835EAB3005C0738 /* select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = select.png; path = ../../../../kishoremaramreddy/Desktop/select.png; sourceTree = "<group>"; };
+		9E37562A1836329F005C0738 /* costamar_nav_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = costamar_nav_bg.png; path = ../../../../kishoremaramreddy/Desktop/costamar_nav_bg.png; sourceTree = "<group>"; };
+		9E37562B1836329F005C0738 /* costamar_nav_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "costamar_nav_bg@2x.png"; path = "../../../../kishoremaramreddy/Desktop/costamar_nav_bg@2x.png"; sourceTree = "<group>"; };
+		9E37563018363949005C0738 /* CITSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITSearchViewController.h; sourceTree = "<group>"; };
+		9E37563118363949005C0738 /* CITSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITSearchViewController.m; sourceTree = "<group>"; };
+		9E37563318363E77005C0738 /* calendar_week.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = calendar_week.png; path = "../../../Android/CostamarMovil/res/drawable-xhdpi/calendar_week.png"; sourceTree = "<group>"; };
+		9E37563418363E77005C0738 /* child.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = child.png; path = "../../../Android/CostamarMovil/res/drawable-xhdpi/child.png"; sourceTree = "<group>"; };
+		9E37563518363E77005C0738 /* infant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = infant.png; path = "../../../Android/CostamarMovil/res/drawable-xhdpi/infant.png"; sourceTree = "<group>"; };
+		9E37563618363E77005C0738 /* orange_rect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = orange_rect.png; path = "../../../Android/CostamarMovil/res/drawable-xhdpi/orange_rect.png"; sourceTree = "<group>"; };
+		9E37563718363E77005C0738 /* seat_combo_box_pressed.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = seat_combo_box_pressed.9.png; path = "../../../Android/CostamarMovil/res/drawable-xhdpi/seat_combo_box_pressed.9.png"; sourceTree = "<group>"; };
+		9E37563818363E78005C0738 /* seat_combo_box.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = seat_combo_box.9.png; path = "../../../Android/CostamarMovil/res/drawable-xhdpi/seat_combo_box.9.png"; sourceTree = "<group>"; };
+		9E37563918363E78005C0738 /* seat_tariff_9.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = seat_tariff_9.9.png; path = "../../../Android/CostamarMovil/res/drawable-xhdpi/seat_tariff_9.9.png"; sourceTree = "<group>"; };
+		9E37563A18363E78005C0738 /* tab_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tab_pressed.png; path = "../../../Android/CostamarMovil/res/drawable-xhdpi/tab_pressed.png"; sourceTree = "<group>"; };
+		9E37563B18363E78005C0738 /* two_way.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = two_way.png; path = "../../../Android/CostamarMovil/res/drawable-xhdpi/two_way.png"; sourceTree = "<group>"; };
+		9E37563C18363E78005C0738 /* adult.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = adult.png; path = "../../../Android/CostamarMovil/res/drawable-xhdpi/adult.png"; sourceTree = "<group>"; };
+		9E37563D18363E78005C0738 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = "../../../Android/CostamarMovil/res/drawable-xhdpi/background.png"; sourceTree = "<group>"; };
+		9E37563E18363E78005C0738 /* blue_rect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blue_rect.png; path = "../../../Android/CostamarMovil/res/drawable-xhdpi/blue_rect.png"; sourceTree = "<group>"; };
+		9E37563F18363E78005C0738 /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = calendar.png; path = "../../../Android/CostamarMovil/res/drawable-xhdpi/calendar.png"; sourceTree = "<group>"; };
+		9E37564018363E78005C0738 /* image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = image.jpg; path = "../../../Android/CostamarMovil/res/drawable-xhdpi/image.jpg"; sourceTree = "<group>"; };
+		9E37564118363E78005C0738 /* seat_tariff_pressed9.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = seat_tariff_pressed9.9.png; path = "../../../Android/CostamarMovil/res/drawable-xhdpi/seat_tariff_pressed9.9.png"; sourceTree = "<group>"; };
+		9E37564318363E78005C0738 /* tab_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tab_normal.png; path = "../../../Android/CostamarMovil/res/drawable-xhdpi/tab_normal.png"; sourceTree = "<group>"; };
+		9E37565D18366A43005C0738 /* select_location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = select_location.png; path = ../../../../kishoremaramreddy/Desktop/select_location.png; sourceTree = "<group>"; };
+		9E4641BD184F711600057F28 /* CITCountryData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITCountryData.h; sourceTree = "<group>"; };
+		9E4641BE184F711600057F28 /* CITCountryData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITCountryData.m; sourceTree = "<group>"; };
+		9E482A2C183A0D1900F8921D /* CITMultiDestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITMultiDestViewController.h; sourceTree = "<group>"; };
+		9E482A2D183A0D1900F8921D /* CITMultiDestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITMultiDestViewController.m; sourceTree = "<group>"; };
+		9E482A2F183A14CE00F8921D /* remove.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = remove.png; path = ../../../../kishoremaramreddy/Dropbox/Mobisys/CostamarMovil/res/drawable/remove.png; sourceTree = "<group>"; };
+		9E482A31183A175100F8921D /* CITMultiDestCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITMultiDestCell.h; sourceTree = "<group>"; };
+		9E482A32183A175100F8921D /* CITMultiDestCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITMultiDestCell.m; sourceTree = "<group>"; };
+		9E482A34183A3CDD00F8921D /* CITAddNewDestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITAddNewDestViewController.h; sourceTree = "<group>"; };
+		9E482A35183A3CDD00F8921D /* CITAddNewDestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITAddNewDestViewController.m; sourceTree = "<group>"; };
+		9E482A37183A471E00F8921D /* historial.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = historial.png; path = ../../../../kishoremaramreddy/Dropbox/Mobisys/CostamarMovil/res/drawable/historial.png; sourceTree = "<group>"; };
+		9E482A38183A471E00F8921D /* alerts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = alerts.png; path = ../../../../kishoremaramreddy/Dropbox/Mobisys/CostamarMovil/res/drawable/alerts.png; sourceTree = "<group>"; };
+		9E482A39183A471E00F8921D /* car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = car.png; path = ../../../../kishoremaramreddy/Dropbox/Mobisys/CostamarMovil/res/drawable/car.png; sourceTree = "<group>"; };
+		9E482A3A183A471E00F8921D /* config.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = config.png; path = ../../../../kishoremaramreddy/Dropbox/Mobisys/CostamarMovil/res/drawable/config.png; sourceTree = "<group>"; };
+		9E482A3B183A471E00F8921D /* cruise.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cruise.png; path = ../../../../kishoremaramreddy/Dropbox/Mobisys/CostamarMovil/res/drawable/cruise.png; sourceTree = "<group>"; };
+		9E482A3C183A471E00F8921D /* flights.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = flights.png; path = ../../../../kishoremaramreddy/Dropbox/Mobisys/CostamarMovil/res/drawable/flights.png; sourceTree = "<group>"; };
+		9E482A3D183A471E00F8921D /* hotel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hotel.png; path = ../../../../kishoremaramreddy/Dropbox/Mobisys/CostamarMovil/res/drawable/hotel.png; sourceTree = "<group>"; };
+		9E482A3E183A471E00F8921D /* tour.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tour.png; path = ../../../../kishoremaramreddy/Dropbox/Mobisys/CostamarMovil/res/drawable/tour.png; sourceTree = "<group>"; };
+		9E482A47183A634D00F8921D /* MMPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMPickerView.m; path = ../../../../kishoremaramreddy/Desktop/MMPickerView.m; sourceTree = "<group>"; };
+		9E482A48183A634D00F8921D /* MMPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMPickerView.h; path = ../../../../kishoremaramreddy/Desktop/MMPickerView.h; sourceTree = "<group>"; };
+		9E54AB54183B875900C1BD09 /* CITFlightDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITFlightDataSource.h; sourceTree = "<group>"; };
+		9E54AB55183B875900C1BD09 /* CITFlightDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITFlightDataSource.m; sourceTree = "<group>"; };
+		9E54AB57183B897900C1BD09 /* CITFlightAutocompleteCellFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITFlightAutocompleteCellFactory.h; sourceTree = "<group>"; };
+		9E54AB58183B897900C1BD09 /* CITFlightAutocompleteCellFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITFlightAutocompleteCellFactory.m; sourceTree = "<group>"; };
+		9E54AB5A183B9B7B00C1BD09 /* CITFlightSuggestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITFlightSuggestion.h; sourceTree = "<group>"; };
+		9E54AB5B183B9B7B00C1BD09 /* CITFlightSuggestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITFlightSuggestion.m; sourceTree = "<group>"; };
+		9E5B1A5E1848B34800E3F843 /* CITJourneyData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITJourneyData.h; sourceTree = "<group>"; };
+		9E5B1A5F1848B34800E3F843 /* CITJourneyData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITJourneyData.m; sourceTree = "<group>"; };
+		9E5D5B5C1834AC5B0041F85F /* costamar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = costamar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E5D5B5F1834AC5B0041F85F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9E5D5B611834AC5B0041F85F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9E5D5B631834AC5B0041F85F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9E5D5B671834AC5B0041F85F /* costamar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "costamar-Info.plist"; sourceTree = "<group>"; };
+		9E5D5B691834AC5B0041F85F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9E5D5B6B1834AC5B0041F85F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9E5D5B6D1834AC5B0041F85F /* costamar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "costamar-Prefix.pch"; sourceTree = "<group>"; };
+		9E5D5B6E1834AC5B0041F85F /* CITAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CITAppDelegate.h; sourceTree = "<group>"; };
+		9E5D5B6F1834AC5B0041F85F /* CITAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CITAppDelegate.m; sourceTree = "<group>"; };
+		9E5D5B7A1834AC5B0041F85F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9E5D5B811834AC5B0041F85F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9E5D5B891834AC5B0041F85F /* costamarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "costamarTests-Info.plist"; sourceTree = "<group>"; };
+		9E5D5B8B1834AC5B0041F85F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9E5D5B8D1834AC5B0041F85F /* costamarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = costamarTests.m; sourceTree = "<group>"; };
+		9E7FAD34185C60DE00EE6448 /* CITAgreementViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITAgreementViewController.h; sourceTree = "<group>"; };
+		9E7FAD35185C60DE00EE6448 /* CITAgreementViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITAgreementViewController.m; sourceTree = "<group>"; };
+		9E7FAD37185C649600EE6448 /* CITPaymentOptionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITPaymentOptionCell.h; sourceTree = "<group>"; };
+		9E7FAD38185C649600EE6448 /* CITPaymentOptionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITPaymentOptionCell.m; sourceTree = "<group>"; };
+		9E80C4BB1862FF2A00AEBAAC /* CITPayerDetailsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITPayerDetailsCell.h; sourceTree = "<group>"; };
+		9E80C4BC1862FF2A00AEBAAC /* CITPayerDetailsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITPayerDetailsCell.m; sourceTree = "<group>"; };
+		9EA287DA186C4F210014507C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		9EA287DC186C4F210014507C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = iPhone.storyboard; sourceTree = "<group>"; };
+		9EA287DE186C4F210014507C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
+		9EA287E4186C4F340014507C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = iPhone.storyboard; sourceTree = "<group>"; };
+		9ED32D42185B2ACE00349428 /* CITPaymentOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITPaymentOption.h; sourceTree = "<group>"; };
+		9ED32D43185B2ACE00349428 /* CITPaymentOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITPaymentOption.m; sourceTree = "<group>"; };
+		9EE1B3AC1866FBAB00870AE3 /* CITFlightJourney.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITFlightJourney.h; sourceTree = "<group>"; };
+		9EE1B3AD1866FBAB00870AE3 /* CITFlightJourney.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITFlightJourney.m; sourceTree = "<group>"; };
+		9EE200761849B25D004217CC /* CITSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITSegmentedControl.h; sourceTree = "<group>"; };
+		9EE200771849B25D004217CC /* CITSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITSegmentedControl.m; sourceTree = "<group>"; };
+		9EE200791849C004004217CC /* CITDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITDatePicker.h; sourceTree = "<group>"; };
+		9EE2007A1849C004004217CC /* CITDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITDatePicker.m; sourceTree = "<group>"; };
+		9EE549BE18504FC3007F3A40 /* CITSearchDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITSearchDetailCell.h; sourceTree = "<group>"; };
+		9EE549BF18504FC3007F3A40 /* CITSearchDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITSearchDetailCell.m; sourceTree = "<group>"; };
+		9EE549C118505BD5007F3A40 /* CITSearchResultSectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITSearchResultSectionHeaderView.h; sourceTree = "<group>"; };
+		9EE549C218505BD5007F3A40 /* CITSearchResultSectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITSearchResultSectionHeaderView.m; sourceTree = "<group>"; };
+		9EE549C418508B47007F3A40 /* CITSearchDetailSectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITSearchDetailSectionHeaderView.h; sourceTree = "<group>"; };
+		9EE549C518508B47007F3A40 /* CITSearchDetailSectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITSearchDetailSectionHeaderView.m; sourceTree = "<group>"; };
+		9EE549C71850A053007F3A40 /* CITFlightDetailData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITFlightDetailData.h; sourceTree = "<group>"; };
+		9EE549C81850A053007F3A40 /* CITFlightDetailData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITFlightDetailData.m; sourceTree = "<group>"; };
+		9EE549CA1850A1F1007F3A40 /* CITSegmentGroupData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITSegmentGroupData.h; sourceTree = "<group>"; };
+		9EE549CB1850A1F1007F3A40 /* CITSegmentGroupData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITSegmentGroupData.m; sourceTree = "<group>"; };
+		E16C299A27524265B4F67B46 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E5D5B591834AC5B0041F85F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E5D5B621834AC5B0041F85F /* CoreGraphics.framework in Frameworks */,
+				9E5D5B641834AC5B0041F85F /* UIKit.framework in Frameworks */,
+				9E5D5B601834AC5B0041F85F /* Foundation.framework in Frameworks */,
+				694F2BE8DA3F4A649EFF24C6 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E0B0DA418374F1D00E69898 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9E482A48183A634D00F8921D /* MMPickerView.h */,
+				9E482A47183A634D00F8921D /* MMPickerView.m */,
+				9E0B0DA518374F5000E69898 /* ImageSpinner.h */,
+				9E0B0DA618374F5000E69898 /* ImageSpinner.m */,
+				9E2D0FF71865C16500DAB186 /* FlightAlertView */,
+				9E2D0FF31865C0B400DAB186 /* HistoryView */,
+				9E2D0FF41865C0C200DAB186 /* SearchView */,
+				9E2D0FF51865C0CA00DAB186 /* SearchResultsView */,
+				9E2D0FF61865C0DC00DAB186 /* SearchDetailsView */,
+				9E2D0FF81865C17E00DAB186 /* PaymentOptionView */,
+				9E2D0FF21865C07A00DAB186 /* PassengerInfoView */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		9E203C5D183505A80047D5AC /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				9E203C6318350F700047D5AC /* CITNetworkEngine.h */,
+				9E203C6418350F700047D5AC /* CITNetworkEngine.m */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		9E203C5E183505B90047D5AC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9E1D56571851EC1500C53249 /* CostamarModel.xcdatamodeld */,
+				9E2D10021865D9D500DAB186 /* CITFlightAlert.h */,
+				9E2D10031865D9D500DAB186 /* CITFlightAlert.m */,
+				9E2D10051865DA1900DAB186 /* CITSearchHistory.h */,
+				9E2D10061865DA1900DAB186 /* CITSearchHistory.m */,
+				9EE1B3AC1866FBAB00870AE3 /* CITFlightJourney.h */,
+				9EE1B3AD1866FBAB00870AE3 /* CITFlightJourney.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		9E203C5F183505D90047D5AC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9E203C6A183514FD0047D5AC /* CITInitialViewController.h */,
+				9E203C6B183514FD0047D5AC /* CITInitialViewController.m */,
+				9E2D0FF01865C03600DAB186 /* MenuListControllers */,
+				9E2D0FF11865C05200DAB186 /* HistoryControllers */,
+				9E2D0FE61865BEAE00DAB186 /* FlightAlertControllers */,
+				9E2D0FEC1865BFA700DAB186 /* ConfigurationControllers */,
+				9E2D0FE71865BEDA00DAB186 /* SearchControllers */,
+				9E2D0FEA1865BF5200DAB186 /* FlightDetailControllers */,
+				9E2D0FEB1865BF7600DAB186 /* ReservationControllers */,
+				9E2D0FED1865BFD900DAB186 /* AgreementControllers */,
+				9E2D0FEE1865BFE500DAB186 /* PassengerInfoControllers */,
+				9E2D0FEF1865BFF700DAB186 /* BookingResponseControllers */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		9E203C66183511300047D5AC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9E203C67183511460047D5AC /* CITUtils.h */,
+				9E203C68183511460047D5AC /* CITUtils.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		9E203C6D1835173D0047D5AC /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				9E203C6F1835174D0047D5AC /* Icons */,
+				9E203C6E183517440047D5AC /* Images */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		9E203C6E183517440047D5AC /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9E1D56481851DD9100C53249 /* RadioButton-Unselected.png */,
+				9E1D56491851DD9200C53249 /* RadioButton-Selected.png */,
+				9E37565D18366A43005C0738 /* select_location.png */,
+				9E37563318363E77005C0738 /* calendar_week.png */,
+				9E37563418363E77005C0738 /* child.png */,
+				9E37563518363E77005C0738 /* infant.png */,
+				9E37563618363E77005C0738 /* orange_rect.png */,
+				9E37563718363E77005C0738 /* seat_combo_box_pressed.9.png */,
+				9E37563818363E78005C0738 /* seat_combo_box.9.png */,
+				9E37563918363E78005C0738 /* seat_tariff_9.9.png */,
+				9E37563A18363E78005C0738 /* tab_pressed.png */,
+				9E37563B18363E78005C0738 /* two_way.png */,
+				9E37563C18363E78005C0738 /* adult.png */,
+				9E37563D18363E78005C0738 /* background.png */,
+				9E37563E18363E78005C0738 /* blue_rect.png */,
+				9E37563F18363E78005C0738 /* calendar.png */,
+				9E37564018363E78005C0738 /* image.jpg */,
+				9E37564118363E78005C0738 /* seat_tariff_pressed9.9.png */,
+				9E37564318363E78005C0738 /* tab_normal.png */,
+				9E37562A1836329F005C0738 /* costamar_nav_bg.png */,
+				9E37562B1836329F005C0738 /* costamar_nav_bg@2x.png */,
+				9E3756241835EAB3005C0738 /* select.png */,
+				9E3343A91835253100C0249D /* logo.png */,
+				9E203C70183517F70047D5AC /* btn_normal.png */,
+				9E203C71183517F70047D5AC /* btn_pressed.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		9E203C6F1835174D0047D5AC /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				9E1D56521851EA4800C53249 /* avion_verde.png */,
+				9E482A37183A471E00F8921D /* historial.png */,
+				9E482A38183A471E00F8921D /* alerts.png */,
+				9E482A39183A471E00F8921D /* car.png */,
+				9E482A3A183A471E00F8921D /* config.png */,
+				9E482A3B183A471E00F8921D /* cruise.png */,
+				9E482A3C183A471E00F8921D /* flights.png */,
+				9E482A3D183A471E00F8921D /* hotel.png */,
+				9E482A3E183A471E00F8921D /* tour.png */,
+				9E482A2F183A14CE00F8921D /* remove.png */,
+				9E0B0DA81837500900E69898 /* loading_icon.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		9E2D0FE61865BEAE00DAB186 /* FlightAlertControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9E2D0FFC1865D6E400DAB186 /* CITFlightAlertViewController.h */,
+				9E2D0FFD1865D6E400DAB186 /* CITFlightAlertViewController.m */,
+				9E2D10081865DE2B00DAB186 /* CITNewFlightAlertViewController.h */,
+				9E2D10091865DE2B00DAB186 /* CITNewFlightAlertViewController.m */,
+			);
+			name = FlightAlertControllers;
+			sourceTree = "<group>";
+		};
+		9E2D0FE71865BEDA00DAB186 /* SearchControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9E37563018363949005C0738 /* CITSearchViewController.h */,
+				9E37563118363949005C0738 /* CITSearchViewController.m */,
+				9E2D0FE81865BEF900DAB186 /* MultiDestinationControllers */,
+				9E2D0FE91865BF1B00DAB186 /* SearchResultControllers */,
+			);
+			name = SearchControllers;
+			sourceTree = "<group>";
+		};
+		9E2D0FE81865BEF900DAB186 /* MultiDestinationControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9E482A2C183A0D1900F8921D /* CITMultiDestViewController.h */,
+				9E482A2D183A0D1900F8921D /* CITMultiDestViewController.m */,
+				9E482A34183A3CDD00F8921D /* CITAddNewDestViewController.h */,
+				9E482A35183A3CDD00F8921D /* CITAddNewDestViewController.m */,
+			);
+			name = MultiDestinationControllers;
+			sourceTree = "<group>";
+		};
+		9E2D0FE91865BF1B00DAB186 /* SearchResultControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9E203DE8184DC93B00D633E1 /* CITSearchResultsViewController.h */,
+				9E203DE9184DC93B00D633E1 /* CITSearchResultsViewController.m */,
+				9E203DEE184E006700D633E1 /* CITFilterViewController.h */,
+				9E203DEF184E006700D633E1 /* CITFilterViewController.m */,
+				9E203DF1184E04ED00D633E1 /* CITFilterSelectViewController.h */,
+				9E203DF2184E04ED00D633E1 /* CITFilterSelectViewController.m */,
+			);
+			name = SearchResultControllers;
+			sourceTree = "<group>";
+		};
+		9E2D0FEA1865BF5200DAB186 /* FlightDetailControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9E203DF7184E067300D633E1 /* CITFlightDetailViewController.h */,
+				9E203DF8184E067300D633E1 /* CITFlightDetailViewController.m */,
+			);
+			name = FlightDetailControllers;
+			sourceTree = "<group>";
+		};
+		9E2D0FEB1865BF7600DAB186 /* ReservationControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9E1D563F1851C29B00C53249 /* CITReservationViewController.h */,
+				9E1D56401851C29B00C53249 /* CITReservationViewController.m */,
+			);
+			name = ReservationControllers;
+			sourceTree = "<group>";
+		};
+		9E2D0FEC1865BFA700DAB186 /* ConfigurationControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9E203DE5184DB6E000D633E1 /* CITConfigurationViewController.h */,
+				9E203DE6184DB6E000D633E1 /* CITConfigurationViewController.m */,
+			);
+			name = ConfigurationControllers;
+			sourceTree = "<group>";
+		};
+		9E2D0FED1865BFD900DAB186 /* AgreementControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9E7FAD34185C60DE00EE6448 /* CITAgreementViewController.h */,
+				9E7FAD35185C60DE00EE6448 /* CITAgreementViewController.m */,
+			);
+			name = AgreementControllers;
+			sourceTree = "<group>";
+		};
+		9E2D0FEE1865BFE500DAB186 /* PassengerInfoControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9E2A6A5B185EFD9B00D81B30 /* CITPassengerInfoViewController.h */,
+				9E2A6A5C185EFD9B00D81B30 /* CITPassengerInfoViewController.m */,
+			);
+			name = PassengerInfoControllers;
+			sourceTree = "<group>";
+		};
+		9E2D0FEF1865BFF700DAB186 /* BookingResponseControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9E2D0FE31865BD8500DAB186 /* CITBookingResponseViewController.h */,
+				9E2D0FE41865BD8500DAB186 /* CITBookingResponseViewController.m */,
+			);
+			name = BookingResponseControllers;
+			sourceTree = "<group>";
+		};
+		9E2D0FF01865C03600DAB186 /* MenuListControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9E203C601835060B0047D5AC /* CITMenuViewController.h */,
+				9E203C611835060B0047D5AC /* CITMenuViewController.m */,
+			);
+			name = MenuListControllers;
+			sourceTree = "<group>";
+		};
+		9E2D0FF11865C05200DAB186 /* HistoryControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9E1D564F1851E84900C53249 /* CITHistoryViewController.h */,
+				9E1D56501851E84900C53249 /* CITHistoryViewController.m */,
+			);
+			name = HistoryControllers;
+			sourceTree = "<group>";
+		};
+		9E2D0FF21865C07A00DAB186 /* PassengerInfoView */ = {
+			isa = PBXGroup;
+			children = (
+				9E2A6A5E185EFF3500D81B30 /* CITAdultPassengerCell.h */,
+				9E2A6A5F185EFF3500D81B30 /* CITAdultPassengerCell.m */,
+				9E2A6A61185EFF4300D81B30 /* CITChildPassengerCell.h */,
+				9E2A6A62185EFF4300D81B30 /* CITChildPassengerCell.m */,
+				9E2A6A64185EFF5300D81B30 /* CITInfantPassengerCell.h */,
+				9E2A6A65185EFF5300D81B30 /* CITInfantPassengerCell.m */,
+				9E80C4BB1862FF2A00AEBAAC /* CITPayerDetailsCell.h */,
+				9E80C4BC1862FF2A00AEBAAC /* CITPayerDetailsCell.m */,
+				9E2D0FDA18655D1A00DAB186 /* CITPassengerInfoTextField.h */,
+				9E2D0FDB18655D1A00DAB186 /* CITPassengerInfoTextField.m */,
+				9E2D0FDD18656C0D00DAB186 /* CITPassengerInfoSelectButton.h */,
+				9E2D0FDE18656C0D00DAB186 /* CITPassengerInfoSelectButton.m */,
+			);
+			name = PassengerInfoView;
+			sourceTree = "<group>";
+		};
+		9E2D0FF31865C0B400DAB186 /* HistoryView */ = {
+			isa = PBXGroup;
+			children = (
+				9E1D56541851EAF900C53249 /* CITHistoryCell.h */,
+				9E1D56551851EAFA00C53249 /* CITHistoryCell.m */,
+			);
+			name = HistoryView;
+			sourceTree = "<group>";
+		};
+		9E2D0FF41865C0C200DAB186 /* SearchView */ = {
+			isa = PBXGroup;
+			children = (
+				9E0EAD511855B52A001F98F6 /* CITMultiDestHeaderCell.h */,
+				9E0EAD521855B52A001F98F6 /* CITMultiDestHeaderCell.m */,
+				9E203DF4184E058600D633E1 /* CITFilterSelectCell.h */,
+				9E203DF5184E058600D633E1 /* CITFilterSelectCell.m */,
+				9E482A31183A175100F8921D /* CITMultiDestCell.h */,
+				9E482A32183A175100F8921D /* CITMultiDestCell.m */,
+				9E54AB57183B897900C1BD09 /* CITFlightAutocompleteCellFactory.h */,
+				9E54AB58183B897900C1BD09 /* CITFlightAutocompleteCellFactory.m */,
+				9E13E403184708A200CA0A43 /* CITTextField.h */,
+				9E13E404184708A200CA0A43 /* CITTextField.m */,
+				9E13E406184732D500CA0A43 /* CITDateField.h */,
+				9E13E407184732D500CA0A43 /* CITDateField.m */,
+				9EE200761849B25D004217CC /* CITSegmentedControl.h */,
+				9EE200771849B25D004217CC /* CITSegmentedControl.m */,
+				9EE200791849C004004217CC /* CITDatePicker.h */,
+				9EE2007A1849C004004217CC /* CITDatePicker.m */,
+			);
+			name = SearchView;
+			sourceTree = "<group>";
+		};
+		9E2D0FF51865C0CA00DAB186 /* SearchResultsView */ = {
+			isa = PBXGroup;
+			children = (
+				9EE549C118505BD5007F3A40 /* CITSearchResultSectionHeaderView.h */,
+				9EE549C218505BD5007F3A40 /* CITSearchResultSectionHeaderView.m */,
+				9E203DEB184DC96500D633E1 /* CITSearchResultCell.h */,
+				9E203DEC184DC96500D633E1 /* CITSearchResultCell.m */,
+			);
+			name = SearchResultsView;
+			sourceTree = "<group>";
+		};
+		9E2D0FF61865C0DC00DAB186 /* SearchDetailsView */ = {
+			isa = PBXGroup;
+			children = (
+				9EE549C418508B47007F3A40 /* CITSearchDetailSectionHeaderView.h */,
+				9EE549C518508B47007F3A40 /* CITSearchDetailSectionHeaderView.m */,
+				9EE549BE18504FC3007F3A40 /* CITSearchDetailCell.h */,
+				9EE549BF18504FC3007F3A40 /* CITSearchDetailCell.m */,
+			);
+			name = SearchDetailsView;
+			sourceTree = "<group>";
+		};
+		9E2D0FF71865C16500DAB186 /* FlightAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				9E2D0FF91865D60000DAB186 /* CITFlightAlertViewCell.h */,
+				9E2D0FFA1865D60000DAB186 /* CITFlightAlertViewCell.m */,
+			);
+			name = FlightAlertView;
+			sourceTree = "<group>";
+		};
+		9E2D0FF81865C17E00DAB186 /* PaymentOptionView */ = {
+			isa = PBXGroup;
+			children = (
+				9E7FAD37185C649600EE6448 /* CITPaymentOptionCell.h */,
+				9E7FAD38185C649600EE6448 /* CITPaymentOptionCell.m */,
+			);
+			name = PaymentOptionView;
+			sourceTree = "<group>";
+		};
+		9E54AB53183B86F900C1BD09 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				9E54AB54183B875900C1BD09 /* CITFlightDataSource.h */,
+				9E54AB55183B875900C1BD09 /* CITFlightDataSource.m */,
+				9E54AB5A183B9B7B00C1BD09 /* CITFlightSuggestion.h */,
+				9E54AB5B183B9B7B00C1BD09 /* CITFlightSuggestion.m */,
+				9E5B1A5E1848B34800E3F843 /* CITJourneyData.h */,
+				9E5B1A5F1848B34800E3F843 /* CITJourneyData.m */,
+				9E203DFA184E269200D633E1 /* CITFlightData.h */,
+				9E203DFB184E269200D633E1 /* CITFlightData.m */,
+				9E203DFD184E26A000D633E1 /* CITFlightSegmentData.h */,
+				9E203DFE184E26A000D633E1 /* CITFlightSegmentData.m */,
+				9E4641BD184F711600057F28 /* CITCountryData.h */,
+				9E4641BE184F711600057F28 /* CITCountryData.m */,
+				9EE549C71850A053007F3A40 /* CITFlightDetailData.h */,
+				9EE549C81850A053007F3A40 /* CITFlightDetailData.m */,
+				9EE549CA1850A1F1007F3A40 /* CITSegmentGroupData.h */,
+				9EE549CB1850A1F1007F3A40 /* CITSegmentGroupData.m */,
+				9E0EAD4B1855AEA7001F98F6 /* CITMultiDestCityData.h */,
+				9E0EAD4C1855AEA7001F98F6 /* CITMultiDestCityData.m */,
+				9E0EAD4E1855AEBC001F98F6 /* CITMultiDestData.h */,
+				9E0EAD4F1855AEBC001F98F6 /* CITMultiDestData.m */,
+				9ED32D42185B2ACE00349428 /* CITPaymentOption.h */,
+				9ED32D43185B2ACE00349428 /* CITPaymentOption.m */,
+				9E2A6A67185F2C5F00D81B30 /* CITFlightPayer.h */,
+				9E2A6A68185F2C5F00D81B30 /* CITFlightPayer.m */,
+				9E2A6A6D185F2D6A00D81B30 /* CITPax.h */,
+				9E2A6A6E185F2D6A00D81B30 /* CITPax.m */,
+				9E2A6A70185F2E5700D81B30 /* CITBookingPayment.h */,
+				9E2A6A71185F2E5700D81B30 /* CITBookingPayment.m */,
+				9E2D0FE01865AF0600DAB186 /* CITBookingResponse.h */,
+				9E2D0FE11865AF0600DAB186 /* CITBookingResponse.m */,
+				9E34F274186847C100DE95B0 /* CITFilterParams.h */,
+				9E34F275186847C100DE95B0 /* CITFilterParams.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		9E5D5B531834AC5B0041F85F = {
+			isa = PBXGroup;
+			children = (
+				9E3343A41835233600C0249D /* Default-568h@2x.png */,
+				9E5D5B651834AC5B0041F85F /* costamar */,
+				9E5D5B871834AC5B0041F85F /* costamarTests */,
+				9E5D5B5E1834AC5B0041F85F /* Frameworks */,
+				9E5D5B5D1834AC5B0041F85F /* Products */,
+				5B45E1C6B6624FE2BBC74BC6 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		9E5D5B5D1834AC5B0041F85F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E5D5B5C1834AC5B0041F85F /* costamar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E5D5B5E1834AC5B0041F85F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E5D5B5F1834AC5B0041F85F /* Foundation.framework */,
+				9E5D5B611834AC5B0041F85F /* CoreGraphics.framework */,
+				9E5D5B631834AC5B0041F85F /* UIKit.framework */,
+				9E5D5B811834AC5B0041F85F /* XCTest.framework */,
+				E16C299A27524265B4F67B46 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E5D5B651834AC5B0041F85F /* costamar */ = {
+			isa = PBXGroup;
+			children = (
+				9E54AB53183B86F900C1BD09 /* Data */,
+				9E203C6D1835173D0047D5AC /* Assets */,
+				9E203C66183511300047D5AC /* Utils */,
+				9E0B0DA418374F1D00E69898 /* Views */,
+				9E203C5F183505D90047D5AC /* Controllers */,
+				9E203C5E183505B90047D5AC /* Models */,
+				9E203C5D183505A80047D5AC /* Networking */,
+				9E5D5B6E1834AC5B0041F85F /* CITAppDelegate.h */,
+				9E5D5B6F1834AC5B0041F85F /* CITAppDelegate.m */,
+				9E5D5B7A1834AC5B0041F85F /* Images.xcassets */,
+				9EA287E2186C4F340014507C /* Base.lproj */,
+				9EA287D8186C4F210014507C /* en.lproj */,
+				9E5D5B661834AC5B0041F85F /* Supporting Files */,
+			);
+			path = costamar;
+			sourceTree = "<group>";
+		};
+		9E5D5B661834AC5B0041F85F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E13E409184743F200CA0A43 /* options.plist */,
+				9E5D5B671834AC5B0041F85F /* costamar-Info.plist */,
+				9E5D5B681834AC5B0041F85F /* InfoPlist.strings */,
+				9E5D5B6B1834AC5B0041F85F /* main.m */,
+				9E5D5B6D1834AC5B0041F85F /* costamar-Prefix.pch */,
+				9E351A23186C06B100DAE644 /* Localizable.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9E5D5B871834AC5B0041F85F /* costamarTests */ = {
+			isa = PBXGroup;
+			children = (
+				9E5D5B8D1834AC5B0041F85F /* costamarTests.m */,
+				9E5D5B881834AC5B0041F85F /* Supporting Files */,
+			);
+			path = costamarTests;
+			sourceTree = "<group>";
+		};
+		9E5D5B881834AC5B0041F85F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E5D5B891834AC5B0041F85F /* costamarTests-Info.plist */,
+				9E5D5B8A1834AC5B0041F85F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9EA287D8186C4F210014507C /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				9EA287D9186C4F210014507C /* InfoPlist.strings */,
+				9EA287DB186C4F210014507C /* iPhone.storyboard */,
+				9EA287DD186C4F210014507C /* Localizable.strings */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		9EA287E2186C4F340014507C /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				9EA287E3186C4F340014507C /* iPhone.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E5D5B5B1834AC5B0041F85F /* costamar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E5D5B911834AC5B0041F85F /* Build configuration list for PBXNativeTarget "costamar" */;
+			buildPhases = (
+				C54EC00AAD3C449987F703AF /* Check Pods Manifest.lock */,
+				9E5D5B581834AC5B0041F85F /* Sources */,
+				9E5D5B591834AC5B0041F85F /* Frameworks */,
+				9E5D5B5A1834AC5B0041F85F /* Resources */,
+				E76445592F16420BB0CE4651 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = costamar;
+			productName = costamar;
+			productReference = 9E5D5B5C1834AC5B0041F85F /* costamar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E5D5B541834AC5B0041F85F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CIT;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Mobisys Technology";
+			};
+			buildConfigurationList = 9E5D5B571834AC5B0041F85F /* Build configuration list for PBXProject "costamar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9E5D5B531834AC5B0041F85F;
+			productRefGroup = 9E5D5B5D1834AC5B0041F85F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E5D5B5B1834AC5B0041F85F /* costamar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E5D5B5A1834AC5B0041F85F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E203C73183517F70047D5AC /* btn_pressed.png in Resources */,
+				9EA287DF186C4F210014507C /* InfoPlist.strings in Resources */,
+				9E203C72183517F70047D5AC /* btn_normal.png in Resources */,
+				9E5D5B7B1834AC5B0041F85F /* Images.xcassets in Resources */,
+				9E351A21186C06B100DAE644 /* Localizable.strings in Resources */,
+				9E5D5B6A1834AC5B0041F85F /* InfoPlist.strings in Resources */,
+				9E3343A51835233600C0249D /* Default-568h@2x.png in Resources */,
+				9E3343AB1835253100C0249D /* logo.png in Resources */,
+				9E3756251835EAB3005C0738 /* select.png in Resources */,
+				9E37562C1836329F005C0738 /* costamar_nav_bg.png in Resources */,
+				9E37562D1836329F005C0738 /* costamar_nav_bg@2x.png in Resources */,
+				9E37564418363E78005C0738 /* calendar_week.png in Resources */,
+				9E37564518363E78005C0738 /* child.png in Resources */,
+				9EA287E1186C4F210014507C /* Localizable.strings in Resources */,
+				9E37564618363E78005C0738 /* infant.png in Resources */,
+				9E37564718363E78005C0738 /* orange_rect.png in Resources */,
+				9E37564818363E78005C0738 /* seat_combo_box_pressed.9.png in Resources */,
+				9E37564918363E78005C0738 /* seat_combo_box.9.png in Resources */,
+				9EA287E0186C4F210014507C /* iPhone.storyboard in Resources */,
+				9EA287E5186C4F340014507C /* iPhone.storyboard in Resources */,
+				9E37564A18363E78005C0738 /* seat_tariff_9.9.png in Resources */,
+				9E37564B18363E78005C0738 /* tab_pressed.png in Resources */,
+				9E37564C18363E78005C0738 /* two_way.png in Resources */,
+				9E37564D18363E78005C0738 /* adult.png in Resources */,
+				9E37564E18363E78005C0738 /* background.png in Resources */,
+				9E37564F18363E78005C0738 /* blue_rect.png in Resources */,
+				9E37565018363E78005C0738 /* calendar.png in Resources */,
+				9E37565118363E78005C0738 /* image.jpg in Resources */,
+				9E37565218363E78005C0738 /* seat_tariff_pressed9.9.png in Resources */,
+				9E37565418363E78005C0738 /* tab_normal.png in Resources */,
+				9E37565E18366A43005C0738 /* select_location.png in Resources */,
+				9E0B0DA91837500900E69898 /* loading_icon.png in Resources */,
+				9E482A30183A14CE00F8921D /* remove.png in Resources */,
+				9E482A3F183A471F00F8921D /* historial.png in Resources */,
+				9E482A40183A471F00F8921D /* alerts.png in Resources */,
+				9E482A41183A471F00F8921D /* car.png in Resources */,
+				9E482A42183A471F00F8921D /* config.png in Resources */,
+				9E482A43183A471F00F8921D /* cruise.png in Resources */,
+				9E482A44183A471F00F8921D /* flights.png in Resources */,
+				9E482A45183A471F00F8921D /* hotel.png in Resources */,
+				9E482A46183A471F00F8921D /* tour.png in Resources */,
+				9E13E40A184743F200CA0A43 /* options.plist in Resources */,
+				9E1D564A1851DD9300C53249 /* RadioButton-Unselected.png in Resources */,
+				9E1D564B1851DD9300C53249 /* RadioButton-Selected.png in Resources */,
+				9E1D56531851EA4800C53249 /* avion_verde.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C54EC00AAD3C449987F703AF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E76445592F16420BB0CE4651 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E5D5B581834AC5B0041F85F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E5D5B6C1834AC5B0041F85F /* main.m in Sources */,
+				9E2D10071865DA1900DAB186 /* CITSearchHistory.m in Sources */,
+				9E203C69183511460047D5AC /* CITUtils.m in Sources */,
+				9E2D0FDC18655D1A00DAB186 /* CITPassengerInfoTextField.m in Sources */,
+				9E203C6518350F700047D5AC /* CITNetworkEngine.m in Sources */,
+				9E5D5B701834AC5B0041F85F /* CITAppDelegate.m in Sources */,
+				9E203C6C183514FD0047D5AC /* CITInitialViewController.m in Sources */,
+				9E203C621835060B0047D5AC /* CITMenuViewController.m in Sources */,
+				9E37563218363949005C0738 /* CITSearchViewController.m in Sources */,
+				9E0B0DA718374F5000E69898 /* ImageSpinner.m in Sources */,
+				9E482A2E183A0D1900F8921D /* CITMultiDestViewController.m in Sources */,
+				9E482A33183A175100F8921D /* CITMultiDestCell.m in Sources */,
+				9E482A36183A3CDE00F8921D /* CITAddNewDestViewController.m in Sources */,
+				9E482A49183A634D00F8921D /* MMPickerView.m in Sources */,
+				9E54AB56183B875900C1BD09 /* CITFlightDataSource.m in Sources */,
+				9E54AB59183B897900C1BD09 /* CITFlightAutocompleteCellFactory.m in Sources */,
+				9E2D0FE21865AF0600DAB186 /* CITBookingResponse.m in Sources */,
+				9E54AB5C183B9B7B00C1BD09 /* CITFlightSuggestion.m in Sources */,
+				9E13E405184708A200CA0A43 /* CITTextField.m in Sources */,
+				9E13E408184732D600CA0A43 /* CITDateField.m in Sources */,
+				9E2D0FE51865BD8500DAB186 /* CITBookingResponseViewController.m in Sources */,
+				9E5B1A601848B34800E3F843 /* CITJourneyData.m in Sources */,
+				9E34F276186847C100DE95B0 /* CITFilterParams.m in Sources */,
+				9EE200781849B25D004217CC /* CITSegmentedControl.m in Sources */,
+				9E2D10041865D9D500DAB186 /* CITFlightAlert.m in Sources */,
+				9E2D0FFE1865D6E400DAB186 /* CITFlightAlertViewController.m in Sources */,
+				9EE2007B1849C004004217CC /* CITDatePicker.m in Sources */,
+				9E203DE7184DB6E000D633E1 /* CITConfigurationViewController.m in Sources */,
+				9EE1B3AE1866FBAB00870AE3 /* CITFlightJourney.m in Sources */,
+				9E203DEA184DC93B00D633E1 /* CITSearchResultsViewController.m in Sources */,
+				9E203DED184DC96500D633E1 /* CITSearchResultCell.m in Sources */,
+				9E2D100A1865DE2B00DAB186 /* CITNewFlightAlertViewController.m in Sources */,
+				9E203DF0184E006800D633E1 /* CITFilterViewController.m in Sources */,
+				9E203DF3184E04ED00D633E1 /* CITFilterSelectViewController.m in Sources */,
+				9E203DF6184E058600D633E1 /* CITFilterSelectCell.m in Sources */,
+				9E203DF9184E067300D633E1 /* CITFlightDetailViewController.m in Sources */,
+				9E203DFC184E269200D633E1 /* CITFlightData.m in Sources */,
+				9E203DFF184E26A000D633E1 /* CITFlightSegmentData.m in Sources */,
+				9E4641BF184F711700057F28 /* CITCountryData.m in Sources */,
+				9EE549C018504FC3007F3A40 /* CITSearchDetailCell.m in Sources */,
+				9EE549C318505BD5007F3A40 /* CITSearchResultSectionHeaderView.m in Sources */,
+				9EE549C618508B47007F3A40 /* CITSearchDetailSectionHeaderView.m in Sources */,
+				9EE549C91850A053007F3A40 /* CITFlightDetailData.m in Sources */,
+				9EE549CC1850A1F1007F3A40 /* CITSegmentGroupData.m in Sources */,
+				9E1D56411851C29B00C53249 /* CITReservationViewController.m in Sources */,
+				9E2D0FFB1865D60000DAB186 /* CITFlightAlertViewCell.m in Sources */,
+				9E1D56511851E84900C53249 /* CITHistoryViewController.m in Sources */,
+				9E1D56561851EAFA00C53249 /* CITHistoryCell.m in Sources */,
+				9E1D56591851EC1500C53249 /* CostamarModel.xcdatamodeld in Sources */,
+				9E0EAD4D1855AEA7001F98F6 /* CITMultiDestCityData.m in Sources */,
+				9E2D0FDF18656C0D00DAB186 /* CITPassengerInfoSelectButton.m in Sources */,
+				9E0EAD501855AEBC001F98F6 /* CITMultiDestData.m in Sources */,
+				9E0EAD531855B52A001F98F6 /* CITMultiDestHeaderCell.m in Sources */,
+				9ED32D44185B2ACE00349428 /* CITPaymentOption.m in Sources */,
+				9E7FAD36185C60DE00EE6448 /* CITAgreementViewController.m in Sources */,
+				9E7FAD39185C649600EE6448 /* CITPaymentOptionCell.m in Sources */,
+				9E2A6A5D185EFD9B00D81B30 /* CITPassengerInfoViewController.m in Sources */,
+				9E2A6A60185EFF3500D81B30 /* CITAdultPassengerCell.m in Sources */,
+				9E2A6A63185EFF4300D81B30 /* CITChildPassengerCell.m in Sources */,
+				9E2A6A66185EFF5300D81B30 /* CITInfantPassengerCell.m in Sources */,
+				9E2A6A69185F2C5F00D81B30 /* CITFlightPayer.m in Sources */,
+				9E2A6A6F185F2D6A00D81B30 /* CITPax.m in Sources */,
+				9E80C4BD1862FF2A00AEBAAC /* CITPayerDetailsCell.m in Sources */,
+				9E2A6A72185F2E5700D81B30 /* CITBookingPayment.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9E351A23186C06B100DAE644 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E351A22186C06B100DAE644 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		9E5D5B681834AC5B0041F85F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E5D5B691834AC5B0041F85F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9E5D5B8A1834AC5B0041F85F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E5D5B8B1834AC5B0041F85F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9EA287D9186C4F210014507C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EA287DA186C4F210014507C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9EA287DB186C4F210014507C /* iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EA287DC186C4F210014507C /* en */,
+			);
+			name = iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		9EA287DD186C4F210014507C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EA287DE186C4F210014507C /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		9EA287E3186C4F340014507C /* iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EA287E4186C4F340014507C /* Base */,
+			);
+			name = iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9E5D5B8F1834AC5B0041F85F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9E5D5B901834AC5B0041F85F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E5D5B921834AC5B0041F85F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B45E1C6B6624FE2BBC74BC6 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "costamar/costamar-Prefix.pch";
+				INFOPLIST_FILE = "costamar/costamar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9E5D5B931834AC5B0041F85F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B45E1C6B6624FE2BBC74BC6 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "costamar/costamar-Prefix.pch";
+				INFOPLIST_FILE = "costamar/costamar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E5D5B571834AC5B0041F85F /* Build configuration list for PBXProject "costamar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E5D5B8F1834AC5B0041F85F /* Debug */,
+				9E5D5B901834AC5B0041F85F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E5D5B911834AC5B0041F85F /* Build configuration list for PBXNativeTarget "costamar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E5D5B921834AC5B0041F85F /* Debug */,
+				9E5D5B931834AC5B0041F85F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9E1D56571851EC1500C53249 /* CostamarModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9E1D56581851EC1500C53249 /* CostamarModel.xcdatamodel */,
+			);
+			currentVersion = 9E1D56581851EC1500C53249 /* CostamarModel.xcdatamodel */;
+			path = CostamarModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9E5D5B541834AC5B0041F85F /* Project object */;
+}

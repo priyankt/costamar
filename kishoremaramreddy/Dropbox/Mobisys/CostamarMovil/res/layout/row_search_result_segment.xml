@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- layout para la visualizacion de un vuelo en el listado de vuelos-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="6dp">
+    <TextView android:id="@+id/departure_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/departure_detail"
+        android:textSize="14sp"
+        android:textColor="@android:color/black"/>
+    <TextView android:id="@+id/arrival_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/arrival_detail"
+        android:textSize="14sp"
+        android:textColor="@android:color/black"/>
+    <TextView android:id="@+id/stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/stop"
+        android:textSize="14sp"
+        android:textStyle="bold"/>
+</LinearLayout>

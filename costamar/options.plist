@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>alert_action_labels</key>
+	<array>
+		<string>Buscar</string>
+		<string>Editar</string>
+		<string>Eliminar</string>
+	</array>
+	<key>stop_labels</key>
+	<array>
+		<string>Sin parada</string>
+		<string>1 parada</string>
+		<string>2+ paradas</string>
+	</array>
+	<key>doc_type_labels</key>
+	<array>
+		<string>DNI</string>
+		<string>Pasaporte</string>
+	</array>
+	<key>doc_type_values</key>
+	<array>
+		<string>ID</string>
+		<string>PP</string>
+	</array>
+	<key>title_labels</key>
+	<array>
+		<string>Sr</string>
+		<string>Sra</string>
+		<string>Srta</string>
+	</array>
+	<key>alert_type_labels</key>
+	<array>
+		<string>Alerta en móvil</string>
+	</array>
+	<key>alert_type_values</key>
+	<array>
+		<string>0</string>
+	</array>
+	<key>alert_frequency_labels</key>
+	<array>
+		<string>Diario</string>
+		<string>Semanal</string>
+	</array>
+	<key>alert_frequency_values</key>
+	<array>
+		<string>D</string>
+		<string>S</string>
+	</array>
+	<key>cabin_type_labels</key>
+	<array>
+		<string>Economica</string>
+		<string>Economica Premium</string>
+		<string>Primera</string>
+		<string>Ejecutiva</string>
+	</array>
+	<key>cabin_type_values</key>
+	<array>
+		<string>Y</string>
+		<string>W</string>
+		<string>F</string>
+		<string>C</string>
+	</array>
+	<key>infant_labels</key>
+	<array>
+		<string>0</string>
+		<string>1</string>
+		<string>2</string>
+		<string>3</string>
+		<string>4</string>
+	</array>
+	<key>children_labels</key>
+	<array>
+		<string>0</string>
+		<string>1</string>
+		<string>2</string>
+		<string>3</string>
+		<string>4</string>
+	</array>
+	<key>adult_labels</key>
+	<array>
+		<string>1</string>
+		<string>2</string>
+		<string>3</string>
+		<string>4</string>
+		<string>5</string>
+	</array>
+	<key>country_labels</key>
+	<array>
+		<string>ARGENTINA[AR]</string>
+		<string>BRASIL[BR]</string>
+		<string>CHILE[CL]</string>
+		<string>COLOMBIA[CO]</string>
+		<string>ECUADOR[EC]</string>
+		<string>ESTADOS UNIDOS[US]</string>
+		<string>PERÚ[PE]</string>
+		<string>MEXICO[MX]</string>
+		<string>--------------------</string>
+		<string>AFGANISTAN[AF]</string>
+		<string>ALAND[AX]</string>
+		<string>ALBANIA[AL]</string>
+		<string>ALEMANIA[DE]</string>
+		<string>ANDORRA[AD]</string>
+		<string>ANGOLA[AO]</string>
+		<string>ANGUILA[AI]</string>
+		<string>ANTARTIDA[AQ]</string>
+		<string>ANTIGUA Y BARBUDA[AG]</string>
+		<string>ANTILLAS HOLANDESAS[AN]</string>
+		<string>ARABIA SAUDITA[SA]</string>
+		<string>ARGELIA[DZ]</string>
+		<string>ARMENIA[AM]</string>
+		<string>ARUBA[AW]</string>
+		<string>AUSTRALIA[AU]</string>
+		<string>AUSTRIA[AT]</string>
+		<string>AZERBAIYAN[AZ]</string>
+		<string>BAHAMAS[BS]</string>
+		<string>BAHREIN[BH]</string>
+		<string>BANGLADESH[BD]</string>
+		<string>BARBADOS[BB]</string>
+		<string>BELGICA[BE]</string>
+		<string>BELICE[BZ]</string>
+		<string>BENIN[BJ]</string>
+		<string>BERMUDAS[BM]</string>
+		<string>BIELORUSIA[BY]</string>
+		<string>BIRMANIA[MM]</string>
+		<string>BOLIVIA[BO]</string>
+		<string>BOSNIA Y HERZEGOVINA[BA]</string>
+		<string>BOTSUANA[BW]</string>
+		<string>BRUNEI[BN]</string>
+		<string>BULGARIA[BG]</string>
+		<string>BURKINA FASO[BF]</string>
+		<string>BURUNDI[BI]</string>
+		<string>BUTAN[BT]</string>
+		<string>CABO VERDE[CV]</string>
+		<string>CAMBOYA[KH]</string>
+		<string>CAMERUN[CM]</string>
+		<string>CANADA[CA]</string>
+		<string>CHAD[TD]</string>
+		<string>CHINA[CN]</string>
+		<string>CHIPRE[CY]</string>
+		<string>CIUDAD DEL VATICANO[VA]</string>
+		<string>COMORAS[KM]</string>
+		<string>COREA DEL NORTE[KP]</string>
+		<string>COREA DEL SUR[KR]</string>
+		<string>COSTA DE MARFIL[CI]</string>
+		<string>COSTA RICA[CR]</string>
+		<string>CROACIA[HR]</string>
+		<string>CUBA[CU]</string>
+		<string>DINAMARCA[DK]</string>
+		<string>DOMINICA[DM]</string>
+		<string>EGIPTO[EG]</string>
+		<string>EL SALVADOR[SV]</string>
+		<string>EMIRATOS ARABES UNIDOS[AE]</string>
+		<string>ERITREA[ER]</string>
+		<string>ESLOVAQUIA[SK]</string>
+		<string>ESLOVENIA[SI]</string>
+		<string>ESPAÑA[ES]</string>
+		<string>ESTONIA[EE]</string>
+		<string>ETIOPIA[ET]</string>
+		<string>FILIPINAS[PH]</string>
+		<string>FINLANDIA[FI]</string>
+		<string>FIYI[FJ]</string>
+		<string>FRANCE, METROPOLITAN</string>
+		<string>FRANCIA[FR]</string>
+		<string>GABON[GA]</string>
+		<string>GAMBIA[GM]</string>
+		<string>GEORGIA[GE]</string>
+		<string>GHANA[GH]</string>
+		<string>GIBRALTAR[GI]</string>
+		<string>GRANADA[GD]</string>
+		<string>GRECIA[GR]</string>
+		<string>GROENLANDIA[GL]</string>
+		<string>GUADALUPE[GP]</string>
+		<string>GUAM[GU]</string>
+		<string>GUATEMALA[GT]</string>
+		<string>GUAYANA FRANCESA[GF]</string>
+		<string>GUERNSEY[GG]</string>
+		<string>GUINEA ECUATORIAL[GQ]</string>
+		<string>GUINEA-BISSAU[GW]</string>
+		<string>GUINEA[GN]</string>
+		<string>GUYANA[GY]</string>
+		<string>HAITI[HT]</string>
+		<string>HOLANDA[NL]</string>
+		<string>HONDURAS[HN]</string>
+		<string>HONG KONG[HK]</string>
+		<string>HUNGRIA[HU]</string>
+		<string>INDIA[IN]</string>
+		<string>INDONESIA[ID]</string>
+		<string>INGLATERRA[GB]</string>
+		<string>IRAN[IR]</string>
+		<string>IRAQ[IQ]</string>
+		<string>IRLANDA[IE]</string>
+		<string>ISLA BOUVET[BV]</string>
+		<string>ISLA DE MAN[IM]</string>
+		<string>ISLA DE NAVIDAD[CX]</string>
+		<string>ISLANDIA[IS]</string>
+		<string>ISLAS CAIMAN[KY]</string>
+		<string>ISLAS COCOS[CC]</string>
+		<string>ISLAS COOK[CK]</string>
+		<string>ISLAS FEROE[FO]</string>
+		<string>ISLAS GALAPAGOS[IG]</string>
+		<string>ISLAS GEORGIAS DEL SUR Y SANDWICH DEL SUR[GS]</string>
+		<string>ISLAS HEARD Y MCDONALD[HM]</string>
+		<string>ISLAS MALVINAS[FK]</string>
+		<string>ISLAS MARIANAS DEL NORTE[MP]</string>
+		<string>ISLAS MARSHALL[MH]</string>
+		<string>ISLAS PITCAIRN[PN]</string>
+		<string>ISLAS SALOMON[SB]</string>
+		<string>ISLAS TURCAS Y CAICOS[TC]</string>
+		<string>ISLAS ULTRAMARINAS DE ESTADOS UNIDOS[UM]</string>
+		<string>ISLAS VIRGENES BRITANICAS[VG]</string>
+		<string>ISLAS VIRGENES ESTADOUNIDENSES[VI]</string>
+		<string>ISRAEL[IL]</string>
+		<string>ITALIA[IT]</string>
+		<string>JAMAICA[JM]</string>
+		<string>JAPON[JP]</string>
+		<string>JERSEY[JE]</string>
+		<string>JORDANIA[JO]</string>
+		<string>KAZAJISTAN[KZ]</string>
+		<string>KENIA[KE]</string>
+		<string>KIRGUISTAN[KG]</string>
+		<string>KIRIBATI[KI]</string>
+		<string>KUWAIT[KW]</string>
+		<string>LAOS[LA]</string>
+		<string>LESOTO[LS]</string>
+		<string>LETONIA[LV]</string>
+		<string>LIBANO[LB]</string>
+		<string>LIBERIA[LR]</string>
+		<string>LIBIA[LY]</string>
+		<string>LIECHTENSTEIN[LI]</string>
+		<string>LITUANIA[LT]</string>
+		<string>LUXEMBURGO[LU]</string>
+		<string>MACAO[MO]</string>
+		<string>MACEDONIA[MK]</string>
+		<string>MADAGASCAR[MG]</string>
+		<string>MALASIA[MY]</string>
+		<string>MALAUI[MW]</string>
+		<string>MALDIVAS[MV]</string>
+		<string>MALI[ML]</string>
+		<string>MALTA[MT]</string>
+		<string>MARRUECOS[MA]</string>
+		<string>MARTINICA[MQ]</string>
+		<string>MAURICIO[MU]</string>
+		<string>MAURITANIA[MR]</string>
+		<string>MAYOTTE[YT]</string>
+		<string>MICRONESIA[FM]</string>
+		<string>MOLDAVIA[MD]</string>
+		<string>MONACO[MC]</string>
+		<string>MONGOLIA[MN]</string>
+		<string>MONTENEGRO[ME]</string>
+		<string>MONTSERRAT[MS]</string>
+		<string>MOZAMBIQUE[MZ]</string>
+		<string>NAMIBIA[NA]</string>
+		<string>NAURU[NR]</string>
+		<string>NEPAL[NP]</string>
+		<string>NICARAGUA[NI]</string>
+		<string>NIGER[NE]</string>
+		<string>NIGERIA[NG]</string>
+		<string>NIUE[NU]</string>
+		<string>NORFOLK[NF]</string>
+		<string>NORUEGA[NO]</string>
+		<string>NUEVA CALEDONIA[NC]</string>
+		<string>NUEVA ZELANDA[NZ]</string>
+		<string>OMAN[OM]</string>
+		<string>PAKISTAN[PK]</string>
+		<string>PALAOS[PW]</string>
+		<string>PANAMA[PA]</string>
+		<string>PAPUA NUEVA GUINEA[PG]</string>
+		<string>PARAGUAY[PY]</string>
+		<string>POLINESIA FRANCESA[PF]</string>
+		<string>POLONIA[PL]</string>
+		<string>PORTUGAL[PT]</string>
+		<string>PUERTO RICO[PR]</string>
+		<string>QATAR[QA]</string>
+		<string>REPUBLICA CENTROAFRICANA[CF]</string>
+		<string>REPUBLICA CHECA[CZ]</string>
+		<string>REPUBLICA DEL CONGO[CG]</string>
+		<string>REPUBLICA DEMOCRATICA DEL CONGO[CD]</string>
+		<string>REPUBLICA DOMINICANA[DO]</string>
+		<string>REUNION[RE]</string>
+		<string>RUANDA[RW]</string>
+		<string>RUMANIA[RO]</string>
+		<string>RUSIA[RU]</string>
+		<string>SAHARA OCCIDENTAL[EH]</string>
+		<string>SAINT BARTHELEMY</string>
+		<string>SAINT MARTIN</string>
+		<string>SAMOA AMERICANA[AS]</string>
+		<string>SAMOA[WS]</string>
+		<string>SAN CRISTOBAL Y NIEVES[KN]</string>
+		<string>SAN MARINO[SM]</string>
+		<string>SAN PEDRO Y MIQUELON[PM]</string>
+		<string>SAN VICENTE Y LAS GRANADINAS[VC]</string>
+		<string>SANTA HELENA[SH]</string>
+		<string>SANTA LUCIA[LC]</string>
+		<string>SANTO TOME Y PRINCIPE[ST]</string>
+		<string>SENEGAL[SN]</string>
+		<string>SERBIA[RS]</string>
+		<string>SEYCHELLES[SC]</string>
+		<string>SIERRA LEONA[SL]</string>
+		<string>SINGAPUR[SG]</string>
+		<string>SIRIA[SY]</string>
+		<string>SOMALIA[SO]</string>
+		<string>SRI LANKA[LK]</string>
+		<string>SUAZILANDIA[SZ]</string>
+		<string>SUDAFRICA[ZA]</string>
+		<string>SUDAN[SD]</string>
+		<string>SUECIA[SE]</string>
+		<string>SUIZA[CH]</string>
+		<string>SURINAM[SR]</string>
+		<string>SVALBARD Y JAN MAYEN[SJ]</string>
+		<string>TAILANDIA[TH]</string>
+		<string>TAIWAN[TW]</string>
+		<string>TANZANIA[TZ]</string>
+		<string>TAYIKISTAN[TJ]</string>
+		<string>TERRITORIO BRITANICO DEL OCEANO INDICO[IO]</string>
+		<string>TERRITORIOS AUSTRALES FRANCESES[TF]</string>
+		<string>TERRITORIOS PALESTINOS[PS]</string>
+		<string>TIMOR ORIENTAL[TL]</string>
+		<string>TOGO[TG]</string>
+		<string>TOKELAU[TK]</string>
+		<string>TONGA[TO]</string>
+		<string>TRINIDAD Y TOBAGO[TT]</string>
+		<string>TUNEZ[TN]</string>
+		<string>TURKMENISTAN[TM]</string>
+		<string>TURQUIA[TR]</string>
+		<string>TUVALU[TV]</string>
+		<string>UCRANIA[UA]</string>
+		<string>UGANDA[UG]</string>
+		<string>UNION EUROPEA[EU]</string>
+		<string>UNION SOVIETICA[SU]</string>
+		<string>URUGUAY[UY]</string>
+		<string>UZBEKISTAN[UZ]</string>
+		<string>VANUATU[VU]</string>
+		<string>VENEZUELA[VE]</string>
+		<string>VIETNAM[VN]</string>
+		<string>WALLIS Y FUTUNA[WF]</string>
+		<string>YEMEN[YE]</string>
+		<string>YIBUTI[DJ]</string>
+		<string>YUGOSLAVIA</string>
+		<string>ZAMBIA[ZM]</string>
+		<string>ZIMBABUE[ZW]</string>
+	</array>
+	<key>country_values</key>
+	<array>
+		<string>AR</string>
+		<string>BR</string>
+		<string>CL</string>
+		<string>CO</string>
+		<string>EC</string>
+		<string>US</string>
+		<string>PE</string>
+		<string>MX</string>
+		<string>-</string>
+		<string>AF</string>
+		<string>AX</string>
+		<string>AL</string>
+		<string>DE</string>
+		<string>AD</string>
+		<string>AO</string>
+		<string>AI</string>
+		<string>AQ</string>
+		<string>AG</string>
+		<string>AN</string>
+		<string>SA</string>
+		<string>DZ</string>
+		<string>AM</string>
+		<string>AW</string>
+		<string>AU</string>
+		<string>AT</string>
+		<string>AZ</string>
+		<string>BS</string>
+		<string>BH</string>
+		<string>BD</string>
+		<string>BB</string>
+		<string>BE</string>
+		<string>BZ</string>
+		<string>BJ</string>
+		<string>BM</string>
+		<string>BY</string>
+		<string>MM</string>
+		<string>BO</string>
+		<string>BA</string>
+		<string>BW</string>
+		<string>BN</string>
+		<string>BG</string>
+		<string>BF</string>
+		<string>BI</string>
+		<string>BT</string>
+		<string>CV</string>
+		<string>KH</string>
+		<string>CM</string>
+		<string>CA</string>
+		<string>TD</string>
+		<string>CN</string>
+		<string>CY</string>
+		<string>VA</string>
+		<string>KM</string>
+		<string>KP</string>
+		<string>KR</string>
+		<string>CI</string>
+		<string>CR</string>
+		<string>HR</string>
+		<string>CU</string>
+		<string>DK</string>
+		<string>DM</string>
+		<string>EG</string>
+		<string>SV</string>
+		<string>AE</string>
+		<string>ER</string>
+		<string>SK</string>
+		<string>SI</string>
+		<string>ES</string>
+		<string>EE</string>
+		<string>ET</string>
+		<string>PH</string>
+		<string>FI</string>
+		<string>FJ</string>
+		<string>FX</string>
+		<string>FR</string>
+		<string>GA</string>
+		<string>GM</string>
+		<string>GE</string>
+		<string>GH</string>
+		<string>GI</string>
+		<string>GD</string>
+		<string>GR</string>
+		<string>GL</string>
+		<string>GP</string>
+		<string>GU</string>
+		<string>GT</string>
+		<string>GF</string>
+		<string>GG</string>
+		<string>GQ</string>
+		<string>GW</string>
+		<string>GN</string>
+		<string>GY</string>
+		<string>HT</string>
+		<string>NL</string>
+		<string>HN</string>
+		<string>HK</string>
+		<string>HU</string>
+		<string>IN</string>
+		<string>ID</string>
+		<string>GB</string>
+		<string>IR</string>
+		<string>IQ</string>
+		<string>IE</string>
+		<string>BV</string>
+		<string>IM</string>
+		<string>CX</string>
+		<string>IS</string>
+		<string>KY</string>
+		<string>CC</string>
+		<string>CK</string>
+		<string>FO</string>
+		<string>IG</string>
+		<string>GS</string>
+		<string>HM</string>
+		<string>FK</string>
+		<string>MP</string>
+		<string>MH</string>
+		<string>PN</string>
+		<string>SB</string>
+		<string>TC</string>
+		<string>UM</string>
+		<string>VG</string>
+		<string>VI</string>
+		<string>IL</string>
+		<string>IT</string>
+		<string>JM</string>
+		<string>JP</string>
+		<string>JE</string>
+		<string>JO</string>
+		<string>KZ</string>
+		<string>KE</string>
+		<string>KG</string>
+		<string>KI</string>
+		<string>KW</string>
+		<string>LA</string>
+		<string>LS</string>
+		<string>LV</string>
+		<string>LB</string>
+		<string>LR</string>
+		<string>LY</string>
+		<string>LI</string>
+		<string>LT</string>
+		<string>LU</string>
+		<string>MO</string>
+		<string>MK</string>
+		<string>MG</string>
+		<string>MY</string>
+		<string>MW</string>
+		<string>MV</string>
+		<string>ML</string>
+		<string>MT</string>
+		<string>MA</string>
+		<string>MQ</string>
+		<string>MU</string>
+		<string>MR</string>
+		<string>YT</string>
+		<string>FM</string>
+		<string>MD</string>
+		<string>MC</string>
+		<string>MN</string>
+		<string>ME</string>
+		<string>MS</string>
+		<string>MZ</string>
+		<string>NA</string>
+		<string>NR</string>
+		<string>NP</string>
+		<string>NI</string>
+		<string>NE</string>
+		<string>NG</string>
+		<string>NU</string>
+		<string>NF</string>
+		<string>NO</string>
+		<string>NC</string>
+		<string>NZ</string>
+		<string>OM</string>
+		<string>PK</string>
+		<string>PW</string>
+		<string>PA</string>
+		<string>PG</string>
+		<string>PY</string>
+		<string>PF</string>
+		<string>PL</string>
+		<string>PT</string>
+		<string>PR</string>
+		<string>QA</string>
+		<string>CF</string>
+		<string>CZ</string>
+		<string>CG</string>
+		<string>CD</string>
+		<string>DO</string>
+		<string>RE</string>
+		<string>RW</string>
+		<string>RO</string>
+		<string>RU</string>
+		<string>EH</string>
+		<string>BL</string>
+		<string>MF</string>
+		<string>AS</string>
+		<string>WS</string>
+		<string>KN</string>
+		<string>SM</string>
+		<string>PM</string>
+		<string>VC</string>
+		<string>SH</string>
+		<string>LC</string>
+		<string>ST</string>
+		<string>SN</string>
+		<string>RS</string>
+		<string>SC</string>
+		<string>SL</string>
+		<string>SG</string>
+		<string>SY</string>
+		<string>SO</string>
+		<string>LK</string>
+		<string>SZ</string>
+		<string>ZA</string>
+		<string>SD</string>
+		<string>SE</string>
+		<string>CH</string>
+		<string>SR</string>
+		<string>SJ</string>
+		<string>TH</string>
+		<string>TW</string>
+		<string>TZ</string>
+		<string>TJ</string>
+		<string>IO</string>
+		<string>TF</string>
+		<string>PS</string>
+		<string>TL</string>
+		<string>TG</string>
+		<string>TK</string>
+		<string>TO</string>
+		<string>TT</string>
+		<string>TN</string>
+		<string>TM</string>
+		<string>TR</string>
+		<string>TV</string>
+		<string>UA</string>
+		<string>UG</string>
+		<string>EU</string>
+		<string>SU</string>
+		<string>UY</string>
+		<string>UZ</string>
+		<string>VU</string>
+		<string>VE</string>
+		<string>VN</string>
+		<string>WF</string>
+		<string>YE</string>
+		<string>DJ</string>
+		<string>YU</string>
+		<string>ZM</string>
+		<string>ZW</string>
+	</array>
+</dict>
+</plist>

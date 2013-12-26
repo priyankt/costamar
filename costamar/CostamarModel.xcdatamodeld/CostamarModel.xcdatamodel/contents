@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3401" systemVersion="12F45" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="CITFlightAlert" representedClassName="CITFlightAlert" parentEntity="CITFlightJourney" syncable="YES">
+        <attribute name="alertFrequency" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="alertType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bestPrice" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dttm" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="maxPrice" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="CITFlightJourney" representedClassName="CITFlightJourney" isAbstract="YES" syncable="YES">
+        <attribute name="adults" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="children" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="destAirport" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="destCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fromDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="infants" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="originAirport" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="originCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tariff" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="toDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="CITSearchHistory" representedClassName="CITSearchHistory" parentEntity="CITFlightJourney" syncable="YES">
+        <attribute name="dttm" optional="YES" attributeType="Date" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CITFlightAlert" positionX="-738" positionY="-1168" width="128" height="118"/>
+        <element name="CITFlightJourney" positionX="-648" positionY="-1414" width="128" height="208"/>
+        <element name="CITSearchHistory" positionX="-522" positionY="-1171" width="128" height="58"/>
+    </elements>
+</model>

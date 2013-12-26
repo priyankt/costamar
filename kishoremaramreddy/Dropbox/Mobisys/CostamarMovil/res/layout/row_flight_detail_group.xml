@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- layout para la visualizacion de un segmento en el detalle de vuelo -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="4dp">
+    <TextView android:id="@+id/journey_station"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="4dp"
+	    android:layout_marginLeft="8dp"
+	    android:layout_marginRight="8dp"
+	    android:textColor="@color/app_blue_color"
+	    android:textSize="18sp"
+	    android:textStyle="bold"/>
+	<View android:id="@+id/rule1"
+	    android:layout_width="match_parent"
+	    android:layout_height="2dp"
+	    android:layout_below="@id/journey_station"
+	    android:layout_marginLeft="8dp"
+	    android:layout_marginRight="8dp"
+	    android:background="@color/app_blue_color"/>
+	<LinearLayout android:id="@+id/journey_segments"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/rule1"
+	    android:orientation="vertical">			    
+	</LinearLayout>
+</RelativeLayout>

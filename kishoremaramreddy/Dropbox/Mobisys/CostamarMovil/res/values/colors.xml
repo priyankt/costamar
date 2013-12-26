@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="border_color">#c6c6c6</color>
+    <color name="origin_back">#ededed</color>
+    <color name="date_color">#878787</color>
+    <color name="app_orange_color">#f39200</color>
+    <color name="app_blue_color">#36a9e1</color>
+    <color name="red_color">#FF0000</color>
+    <color name="grey_label">#9D9D9C</color>
+    <color name="blue_divider">#0062A5</color>
+    <color name="grey_divider">#9D9D9C</color>
+    <color name="grey_text_alert">#9D9D9C</color>
+    <color name="grey_disable_text">#DADADA</color>    
+    <color name="background_pnr">#36A9E1</color>
+    
+    <!-- Caldroid -->
+    
+     <color name="caldroid_white">#FFFFFF</color>
+    <color name="caldroid_black">#000000</color>
+    <color name="caldroid_transparent">#00000000</color>
+    <!-- For settings framework -->
+    <color name="caldroid_lighter_gray">#ddd</color>
+    <color name="caldroid_gray">#CCC</color>
+    <color name="caldroid_darker_gray">#aaa</color>
+    <!-- A light Holo shade of blue -->
+    <color name="caldroid_holo_blue_light">#ff33b5e5</color>
+    <!-- A dark Holo shade of blue -->
+    <color name="caldroid_holo_blue_dark">#ff0099cc</color>
+    <!-- A really bright Holo shade of blue -->
+    <color name="caldroid_sky_blue">#FFA3E8F7</color>
+</resources>

@@ -1,0 +1,186 @@
+/* 
+  localizable.strings
+  costamar
+
+  Created by Mahavir Jain on 24/12/13.
+  Copyright (c) 2013 Mobisys Technology. All rights reserved.
+*/
+
+"app_name" = "Costamar Movil";
+"btn_one_way" = "Sólo Ida";
+"btn_multi_way" = "Ida y vuelta";
+"btn_multi_destination" = "Multidestino";
+"btn_create_alert" = "Crear alerta";
+"btn_apply" = "Aplicar";
+"btn_enter" = "Ingresar";
+"btn_duration" = "Duración";
+"btn_search_flight" = "Buscar Vuelos";
+"btn_see_history" = "Ver Historial";
+"btn_add_dest" = "Añadir Vuelo";
+"btn_all" = "Todos";
+"btn_filter" = "Filtros adicionales";
+"btn_sort" = "Ordenado por";
+"btn_none" = "Ninguno";
+"btn_reset" = "Reset";
+"btn_cancel" = "Cancelar";
+"btn_price" = "Precio";
+"btn_reservation" = "RESERVAR";
+"btn_next" = "Siguiente";
+"btn_ok" = "Aceptar";
+"btn_clean_history" = "Limpiar";
+"departure_date" = "Fecha de Salida";
+"return_date" = "Fecha retorno";
+"tariff" = "Tarifa";
+"adults" = "Adultos";
+"childs" = "Niños";
+"infants" = "Infantes";
+"adults_abrv" = "Adt.";
+"childs_abrv" = "Niño.";
+"infants_abrv" = "Inf.";
+"adult_condition" = "12 o + años";
+"child_condition" = "2 - 11 años";
+"infant_condition" = "0 - 23 meses";
+"date" = "Fecha";
+"retry" = "Reintentar";
+"error" = "Error";
+"label_origin" = "Origen";
+"label_destination" = "Destino";
+"label_frequency" = "Frecuencia";
+"label_notifyby" = "Notificar por";
+"label_myalerts" = "Mis Alertas";
+"label_country" = "País:";
+"label_select_country" = "Por favor seleccione su país:";
+"label_welcome_to" = "Bienvenidos a:";
+"label_filter" = "Filtros";
+"label_history" = "Historial de búsqueda";
+"label_history_config" = "Historial";
+"label_config" = "Parámetros de configuración";
+"label_airline" = "Aerolíneas";
+"label_stop" = "Paradas";
+"label_duration" = "Duración";
+"label_pax_qty" = "Pasajeros";
+"label_max_price" = "Precio máx. %@";
+"label_best_price" = "Mejor precio. %@";
+"label_contact" = "Información de contacto";
+"label_name" = "Nombre";
+"label_lastname1" = "Apellido pat.";
+"label_lastname2" = "Apellido mat.";
+"label_agree" = "Acepto los términos y condiciones";
+"label_adult_no" = "Adulto %d";
+"label_child_no" = "Niño %d";
+"label_infant_no" = "Infante %d";
+"label_title" = "Titulo";
+"label_dob" = "Fec. nacimiento";
+"label_country_issue_id" = "País";
+"label_doc_type" = "Tipo doc.";
+"label_doc_number" = "Número doc.";
+"label_email" = "Email";
+"label_confirm_email" = "Confirmar email";
+"label_country_phone" = "País";
+"label_phone" = "Teléfono";
+"label_parent_repsonsible" = "Adulto a cargo";
+"label_pnr" = "Cód. reserva: %s";
+"label_filght_alert_passenger_string" = "Pasajeros. Adt: %@, Niño: %@, Inf: %@";
+
+"select" = "Seleccione";
+"remove" = "Borrar";
+
+// Errors
+"error_no_origin" = "Please select origin";
+"error_no_destination" = "Please select destination";
+"unknown_error" = "Unknown Error: %@";
+"invalid_email" = "Invalid Email";
+"invalid_confirm_email" = "Invalid Confirm Email";
+"invalid_phone" = "Invalid Phone";
+"invalid_name" = "Invalid name";
+"invalid_lastnamem" = "Invalid Lastnamem";
+"invalid_lastnamep" = "Invalid Lastnamep";
+"invalid_doc_number" = "Invalid Doc Number";
+"invalid_birthdate" = "Invalid Birthdate";
+
+// Alert view ok button title
+"ok_button_title" = "Ok";
+"notification_body" = "New results for your alert";
+"selectalert_action" = "Por favor seleccione una acción";
+
+// nuevo a revisar
+"choose_payment" = "Escoga medio de pago";
+"select_option" = "Por favor seleccione su medio de pago";
+"regulations" = "(Haga clic en el círculo al lado del medio de pago preferido)";
+"terms_conditions" = "Haga click para ver los términos y condiciones";
+"title_tandc" = "Términos y condiciones";
+
+// hints
+"hint_dob" = "Fecha de nacimiento";
+
+// Label con formato
+"result_count" = "Resultados encontrados: %d de %d";
+"base_price" = "Precio Total: ";
+"airline" = "Aerolinea: ";
+"label_operated_by" = "Operado por: ";
+"flight_number" = "Vuelo: ";
+"label_datefrom" = "Ida: ";
+"label_dateto" = "Vuelta: ";
+"label_route" = "Ruta: ";
+"departure_detail" = "Salida: ";
+"label_tariff" = "Tarifa: ";
+"arrival_detail" = "Llegada: ";
+"stop" = "Escalas: %@";
+"hour" = "Hora: ";
+//"station_names" formatted="false" = "%s - %s";
+//"price_found" formatted="false" = "Precio encontrado: %s";
+
+// Mensajes al usuario
+"booking_status" = "No se puede hacer la reserva";
+"select_agree" = "Por favor lea los terminos y condiciones";
+"select_payment_option" = "Por favor seleccione una opción de pago";
+"no_search_result" = "No se encontraron resultados.. Por favor intente nuevamente..";
+"no_alert_result" = "No se encontraron alertas creadas.";
+"no_history_result" = "No se encontraron búsquedas previas.";
+"hint" = "Tip: Toque el primer o último día del mes siguiente o anterior.";
+"error_uncaught" = "Lo sentimos, ocurrió un error inesperado.";
+"no_connection" = "Hubo un error de conexión. Por favor verifique su internet.";
+"please_wait" = "Por favor espere";
+"enter_alldetails" = "Por favor ingrese todos los detalles";
+"enter_dates" = "Por favor ingrese las fechas de forma correcta";
+"loading" = "Cargando..";
+"alert_created" = "Se creó la alerta de forma correcta";
+"history_cleaned" = "Se limpió el historial de búsqueda";
+"changed_country" = "Se cambió el pais de forma correcta";
+"selectalert_action" = "Por favor seleccione una acción";
+"enter_oneflight" = "Por favor ingrese al menos un vuelo";
+"enter_adultinfo" = "Por favor ingrese todos los datos del pasajero adulto %s";
+"enter_childinfo" = "\r\nPor favor ingrese todos los datos del pasajero niño %s";
+"enter_infantinfo" = "\r\nPor favor ingrese todos los datos del pasajero infante %s";
+"enter_sameemail" = "Por favor ingrese los datos de contacto confirmando su email";
+
+//"booking_successful" = "Tome nota de su código de reserva y revise las indicaciones &lt;font color="#f39200" = "Aquí&lt;/font>";
+//"booking_successful_payment" = "Pronto recibirá un email con la información de pago, tome nota de su código: &lt;font color="#f39200" = "%s&lt;/font>";
+//"booking_guidelines" = "&lt;font color="#f39200" = "Importante, por favor léase:&lt;/font>&lt;br/>Gracias por escogernos para la organización de su viaje. Estamos comprometidos a proveerle un servicio de categoría mundial. Reconocemos que usted tiene otras opciones de compra de tickets y por ello queremos darle las gracias por su inversión.
+//&lt;br/>&lt;br/>&lt;b>Debido a regulaciones definidas para ventas online, las tarifas correspondientes a vuelos nacionales o domésticos cuentan con un plazo de 1 hora para la confirmación de su pago. Tarifas correspondientes a vuelos internacionales contarán con un plazo de hasta 5 horas para la confirmación de su pago.&lt;/b>
+//&lt;br/>&lt;br/>Tickets electrónicos (e-tickets) serán emitidos al ser confirmado el pago. Ciertas líneas aéreas no permiten e-tickets en todas las reservas. Si los e-tickets no pueden ser emitidos para su reserva, un boleto de papel le será enviado. Comisiones adicionales se aplicarán por el ticket de papel. Por favor recuerde los términos y condiciones detallados en el sitio web previos a la reservación. Estas comisiones cubren el envío dentro del país en donde se ha generado la reserva como punto de partida del viaje y la tramitación de su boleto de papel. Gastos adicionales se aplicarán para otros destinos de envío.
+//&lt;br/>&lt;br/>Se requiere que los pasajeros reconfirmen su vuelo 72 (setenta y dos) horas antes de la salida con la aerolínea con la que está viajando. Además se requiere que los pasajeros lleguen al counter respectivo 3 (tres) horas antes de la salida para viajes internacionales y 2 (dos) horas antes de la salida para viajes domésticos o nacionales. No podemos hacernos responsables de los cambios de vuelos hechos por la aerolínea, pero de presentarse estos contratiempos veremos al forma de asistirlo y ayudarlo. Si el pasajero pierde o no se presenta para su vuelo y no notifica a la aerolínea el motivo por el cual no podrá presentarse, el pasajero asume toda responsabilidad por cualquier cambio o cancelación o en todo caso perder el valor del boleto. La política sobre el no show (no hacerse presente) en el aeropuerto el día del vuelo, es una regla mandatoria de la aerolínea y está sujeta a discreción y manejo de ellos mismos. Sin embargo, la mayor parte de aerolíneas no miran el no show (no hacerse presente) como una violación a sus políticas de boletos, que quiere decir pierde alguno y todos los fondos pagados por dicho boleto. Esto quiere decir que existe la posibilidad de que se deba de hacer un pago de penalidad para poder recuperar dicho boleto. La distancia recorrida en millas de usuario puede ser aumentada sobre algunos portadores. Por favor póngase en contacto con su aerolínea para acordar su número de distancia recorrida en millas.
+//&lt;br/>&lt;br/>&lt;font color="#f39200" = "Las tarifas no son garantizadas hasta no ser emitidas&lt;/font>.
+//&lt;br/>&lt;br/>Los pasajeros son responsables de tener al día todos los documentos de viajes requeridos. Si el pasajero intenta volar sin la documentación apropiada no podrá viajar, incluso esta información será requerida para cancelar o cambiar su ticket de viaje, entonces el pasajero asume toda la responsabilidad de alguno o todo el cambio o cancelar comisiones, si son aplicables y/o la pérdida del ticket comprado.
+//&lt;br/>&lt;br/>&lt;font color="#f39200" = "En un acontecimiento improbable, si su ticket no puede ser procesado por ninguna razón usted será notificado vía correo electrónico o por teléfono y su pago NO será procesado.&lt;/font>
+//&lt;br/>&lt;br/>NOTA: Los cambios de horarios hechos por la aerolínea, el modelo meteorológico y otros actos naturales pueden afectar sus vuelos; por lo tanto, le recomendamos nuevamente que usted reconfirme con la aerolínea directamente 72 horas antes de la salida.
+//&lt;br/>&lt;font color="#f39200" = "Aunque su reserva esté confirmada, tendrá que ser verificada antes de ser emitida y remitida a usted, en caso de que nuestro sistema detecte algún problema en su pago con tarjeta de crédito le solicitaremos nos permita pedirle una firma de autorización para el procesamiento de débito de su tarjeta de crédito. Como se acordó cuando usted compró su ticket aéreo, todo ticket vendido es NO REEMBOLSABLE.&lt;/font>
+//";
+
+"menu_flight_title" = "Vuelos";
+"menu_history_title" = "Historial";
+"menu_hotel_title" = "Hoteles";
+"menu_alert_title" = "Mis Alertas";
+"menu_tour_title" = "Paquetes";
+"menu_config_title" = "Configuración";
+"menu_cruise_title" = "Crucero";
+"menu_car_title" = "Auto";
+
+"menu_flight_description" = "Consigue los mejores vuelos";
+"menu_hotel_description" = "Consigue la mejor habitación";
+"menu_history_description" = "Mira aquí tu historial de búsqueda";
+"menu_alert_description" = "Recibe las alertas de los precios";
+"menu_tour_description" = "Arma tu paquete de viaje";
+"menu_config_description" = "Revisa tu configuración";
+"menu_cruise_description" = "Disfruta de la aventura sobre el mar";
+"menu_car_description" = "Consigue la mejor movilidad";

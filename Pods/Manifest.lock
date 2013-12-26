@@ -1,0 +1,37 @@
+PODS:
+  - AFNetworking (1.1.0)
+  - CKCalendar (1.0.0)
+  - HMSegmentedControl (1.2.0)
+  - InnerBand (1.0.6)
+  - MKNetworkKit (0.87):
+    - Reachability (~> 3.1.0)
+  - Reachability (3.1.1)
+  - SSZipArchive (0.3.1)
+  - SVProgressHUD (1.0)
+  - TPKeyboardAvoiding (1.2.1)
+  - TRAutocompleteView (1.1):
+    - AFNetworking (~> 1.1.0)
+
+DEPENDENCIES:
+  - CKCalendar
+  - HMSegmentedControl (~> 1.2.0)
+  - InnerBand
+  - MKNetworkKit
+  - SSZipArchive (~> 0.3.1)
+  - SVProgressHUD
+  - TPKeyboardAvoiding (~> 1.2.1)
+  - TRAutocompleteView (~> 1.1)
+
+SPEC CHECKSUMS:
+  AFNetworking: 761a418233d280c1e0580bcb76ff9cb4c3073d17
+  CKCalendar: c8a377cc0ddd24cef51bd45aa0c25abbcaa3d92b
+  HMSegmentedControl: 826084e59fce20866aaa23f30ed50677210eb669
+  InnerBand: 35a7b4f965322f75449a5d5d9329d07725a77abb
+  MKNetworkKit: f174100f92473012138b6b1c3040266af8d43a14
+  Reachability: be4883bb93f31e38266ae3365e5600a317aae735
+  SSZipArchive: 47d0589a15452311749a4eeecb97e12800d127de
+  SVProgressHUD: 5e10939a296debf5fe5a5895eda9539b8b2114f1
+  TPKeyboardAvoiding: 0536c563e6c8b8e95a7c4bf87fca9c0991f5e826
+  TRAutocompleteView: ba50fc6be2a586993ae429d7bfd52849888bac8c
+
+COCOAPODS: 0.28.0

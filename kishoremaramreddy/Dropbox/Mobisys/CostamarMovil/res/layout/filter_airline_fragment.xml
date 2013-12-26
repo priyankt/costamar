@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- layout  para el filtrado de resultados, solo para el listado de aerolineas -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <LinearLayout android:id="@+id/top_btn_layout"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:layout_marginTop="4dp"
+         android:weightSum="2"
+         android:orientation="horizontal">
+         <Button android:id="@+id/btn_all"
+             android:layout_width="0dp"
+             android:layout_height="fill_parent"
+             android:layout_weight="1"
+             android:text="@string/btn_all"
+             android:textColor="@android:color/white"
+             android:background="@drawable/btn_selector"/>
+         <Button android:id="@+id/btn_none"
+             android:layout_width="0dp"
+             android:layout_height="fill_parent"
+             android:layout_marginLeft="4dp"
+             android:layout_weight="1"
+             android:text="@string/btn_none"
+             android:textColor="@android:color/white"
+             android:background="@drawable/btn_selector"/>
+	</LinearLayout>
+	<TextView android:id="@+id/select"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="10dp"
+	    android:layout_marginTop="10dp"
+	    android:text="@string/select"
+	    android:textColor="#f39200"
+	    android:textSize="20sp"
+	    android:textStyle="bold"
+	    android:layout_below="@id/top_btn_layout"/>
+	<ListView android:id="@+id/air_list"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/select"
+	    android:layout_margin="10dp"
+	    android:background="@drawable/border_drawable"
+	    android:divider="@android:color/darker_gray"
+	    android:dividerHeight="1dp"
+	    android:cacheColorHint="@android:color/transparent"/>
+</RelativeLayout>

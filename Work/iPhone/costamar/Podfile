@@ -1,0 +1,7 @@
+pod 'MKNetworkKit'
+pod 'InnerBand'
+pod 'SVProgressHUD'
+pod 'TRAutocompleteView', '~> 1.1'
+#pod 'SMVerticalSegmentedControl', '~> 0.1.2'
+pod 'HMSegmentedControl', '~> 1.2.0'
+pod 'CKCalendar'

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- layout para mostrar el calendario -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+    <RelativeLayout android:id="@+id/logo_layout"
+        android:layout_width="fill_parent"
+    	android:layout_height="55dp"
+    	android:background="@drawable/logo_bg">
+		<ImageView android:id="@+id/logo" 
+		    android:layout_width="200dp"
+		    android:layout_height="35dp"
+		    android:src="@drawable/logo"
+		    android:layout_centerInParent="true"/>
+	</RelativeLayout>
+    <FrameLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="6dp"
+		android:layout_below="@id/logo_layout">
+		<LinearLayout android:id="@+id/next_prev"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal"
+		    android:layout_gravity="center_horizontal">
+	       <ImageButton android:id="@+id/prev"
+	           android:layout_width="wrap_content"
+	           android:layout_height="wrap_content"
+	           android:text="Prev"
+	           android:textColor="@android:color/black"
+	           android:src="@drawable/b_prev"
+	           android:background="@android:color/transparent"/>
+			<TextView android:id="@+id/t_month" 
+			    android:layout_width="wrap_content"
+				android:layout_height="wrap_content" 
+				android:text="Current Month"
+				android:layout_marginLeft="12dp"
+				android:layout_marginRight="12dp"
+				android:layout_gravity="center" 
+				android:textColor="#336699"
+				android:textSize="20sp"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:textStyle="bold"/>
+			<ImageButton android:id="@+id/next"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="Next"
+	            android:textColor="@android:color/black"
+	            android:src="@drawable/b_next"
+	           android:background="@android:color/transparent"/>
+		</LinearLayout>
+		<com.exina.android.calendar.CalendarView
+			android:id="@+id/calendar" 
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_below="@id/next_prev"
+			android:layout_marginTop="6dp"/>
+	</FrameLayout>
+    <TextView android:id="@+id/hint"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="@string/hint" />
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- layout para la visualizacion de un segmento en el detalle de vuelo -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp">
+    <TextView android:id="@+id/station_names"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"/>
+	<LinearLayout android:id="@+id/main_layout"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:paddingLeft="10dp"
+	    android:orientation="vertical">
+	    <TextView android:id="@+id/departure_detail"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"/>
+		<TextView android:id="@+id/arrival_detail"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"/>
+		<TextView android:id="@+id/airline"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"/>
+		<TextView android:id="@+id/operated_by"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"/>
+		<TextView android:id="@+id/cabin_type"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"/>
+	</LinearLayout>
+	<View android:id="@+id/rule"
+	    android:layout_width="match_parent"
+	    android:layout_height="2dp"
+	    android:layout_marginTop="4dp"
+	    android:background="@android:color/darker_gray"/>
+</LinearLayout>

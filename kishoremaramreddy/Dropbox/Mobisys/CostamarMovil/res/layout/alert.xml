@@ -1,0 +1,47 @@
+<!-- Ventana inicial de la aplicacion  -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+    <RelativeLayout android:id="@+id/logo_layout"
+        android:layout_width="fill_parent"
+    	android:layout_height="55dp"
+    	android:background="@drawable/logo_bg">
+		<ImageView android:id="@+id/logo" 
+		    android:layout_width="200dp"
+		    android:layout_height="35dp"
+		    android:src="@drawable/logo"
+		    android:layout_centerInParent="true"/>
+	</RelativeLayout>
+	<LinearLayout android:id="@+id/header" 
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/logo_layout"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <Button android:id="@+id/btn_one_way"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="@string/btn_one_way"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:background="@drawable/tab_pressed"/>
+        <Button android:id="@+id/btn_multi_way"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="@string/btn_multi_way"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:background="@drawable/tab_normal"/>
+   </LinearLayout>
+   <FrameLayout
+       android:id="@+id/simple_fragment"
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:layout_weight="1"
+       android:layout_below="@id/header">
+    </FrameLayout>
+</RelativeLayout>

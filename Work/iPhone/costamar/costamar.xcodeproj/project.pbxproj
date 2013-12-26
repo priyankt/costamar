@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		694F2BE8DA3F4A649EFF24C6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E16C299A27524265B4F67B46 /* libPods.a */; };
+		9E0B0DA718374F5000E69898 /* ImageSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E0B0DA618374F5000E69898 /* ImageSpinner.m */; };
+		9E0B0DA91837500900E69898 /* loading_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E0B0DA81837500900E69898 /* loading_icon.png */; };
+		9E13E405184708A200CA0A43 /* CITTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E13E404184708A200CA0A43 /* CITTextField.m */; };
+		9E203C621835060B0047D5AC /* CITMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E203C611835060B0047D5AC /* CITMenuViewController.m */; };
+		9E203C6518350F700047D5AC /* CITNetworkEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E203C6418350F700047D5AC /* CITNetworkEngine.m */; };
+		9E203C69183511460047D5AC /* CITUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E203C68183511460047D5AC /* CITUtils.m */; };
+		9E203C6C183514FD0047D5AC /* CITInitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E203C6B183514FD0047D5AC /* CITInitialViewController.m */; };
+		9E203C72183517F70047D5AC /* btn_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E203C70183517F70047D5AC /* btn_normal.png */; };
+		9E203C73183517F70047D5AC /* btn_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E203C71183517F70047D5AC /* btn_pressed.png */; };
+		9E3343A51835233600C0249D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E3343A41835233600C0249D /* Default-568h@2x.png */; };
+		9E3343A71835236D00C0249D /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E3343A61835236D00C0249D /* iPhone.storyboard */; };
+		9E3343AB1835253100C0249D /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E3343A91835253100C0249D /* logo.png */; };
+		9E3756251835EAB3005C0738 /* select.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E3756241835EAB3005C0738 /* select.png */; };
+		9E37562C1836329F005C0738 /* costamar_nav_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E37562A1836329F005C0738 /* costamar_nav_bg.png */; };
+		9E37562D1836329F005C0738 /* costamar_nav_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E37562B1836329F005C0738 /* costamar_nav_bg@2x.png */; };
+		9E37562F18363388005C0738 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E37562E18363388005C0738 /* back.png */; };
+		9E37563218363949005C0738 /* CITSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E37563118363949005C0738 /* CITSearchViewController.m */; };
+		9E37564418363E78005C0738 /* calendar_week.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E37563318363E77005C0738 /* calendar_week.png */; };
+		9E37564518363E78005C0738 /* child.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E37563418363E77005C0738 /* child.png */; };
+		9E37564618363E78005C0738 /* infant.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E37563518363E77005C0738 /* infant.png */; };
+		9E37564718363E78005C0738 /* orange_rect.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E37563618363E77005C0738 /* orange_rect.png */; };
+		9E37564818363E78005C0738 /* seat_combo_box_pressed.9.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E37563718363E77005C0738 /* seat_combo_box_pressed.9.png */; };
+		9E37564918363E78005C0738 /* seat_combo_box.9.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E37563818363E78005C0738 /* seat_combo_box.9.png */; };
+		9E37564A18363E78005C0738 /* seat_tariff_9.9.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E37563918363E78005C0738 /* seat_tariff_9.9.png */; };
+		9E37564B18363E78005C0738 /* tab_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E37563A18363E78005C0738 /* tab_pressed.png */; };
+		9E37564C18363E78005C0738 /* two_way.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E37563B18363E78005C0738 /* two_way.png */; };
+		9E37564D18363E78005C0738 /* adult.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E37563C18363E78005C0738 /* adult.png */; };
+		9E37564E18363E78005C0738 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E37563D18363E78005C0738 /* background.png */; };
+		9E37564F18363E78005C0738 /* blue_rect.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E37563E18363E78005C0738 /* blue_rect.png */; };
+		9E37565018363E78005C0738 /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E37563F18363E78005C0738 /* calendar.png */; };
+		9E37565118363E78005C0738 /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E37564018363E78005C0738 /* image.jpg */; };
+		9E37565218363E78005C0738 /* seat_tariff_pressed9.9.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E37564118363E78005C0738 /* seat_tariff_pressed9.9.png */; };
+		9E37565418363E78005C0738 /* tab_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E37564318363E78005C0738 /* tab_normal.png */; };
+		9E37565E18366A43005C0738 /* select_location.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E37565D18366A43005C0738 /* select_location.png */; };
+		9E482A2E183A0D1900F8921D /* CITMultiDestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E482A2D183A0D1900F8921D /* CITMultiDestViewController.m */; };
+		9E482A30183A14CE00F8921D /* remove.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E482A2F183A14CE00F8921D /* remove.png */; };
+		9E482A33183A175100F8921D /* CITMultiDestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E482A32183A175100F8921D /* CITMultiDestCell.m */; };
+		9E482A36183A3CDE00F8921D /* CITAddNewDestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E482A35183A3CDD00F8921D /* CITAddNewDestViewController.m */; };
+		9E482A3F183A471F00F8921D /* historial.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E482A37183A471E00F8921D /* historial.png */; };
+		9E482A40183A471F00F8921D /* alerts.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E482A38183A471E00F8921D /* alerts.png */; };
+		9E482A41183A471F00F8921D /* car.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E482A39183A471E00F8921D /* car.png */; };
+		9E482A42183A471F00F8921D /* config.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E482A3A183A471E00F8921D /* config.png */; };
+		9E482A43183A471F00F8921D /* cruise.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E482A3B183A471E00F8921D /* cruise.png */; };
+		9E482A44183A471F00F8921D /* flights.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E482A3C183A471E00F8921D /* flights.png */; };
+		9E482A45183A471F00F8921D /* hotel.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E482A3D183A471E00F8921D /* hotel.png */; };
+		9E482A46183A471F00F8921D /* tour.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E482A3E183A471E00F8921D /* tour.png */; };
+		9E482A49183A634D00F8921D /* MMPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E482A47183A634D00F8921D /* MMPickerView.m */; };
+		9E54AB52183B369100C1BD09 /* CITCountry.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E54AB51183B369100C1BD09 /* CITCountry.m */; };
+		9E54AB56183B875900C1BD09 /* CITFlightDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E54AB55183B875900C1BD09 /* CITFlightDataSource.m */; };
+		9E54AB59183B897900C1BD09 /* CITFlightAutocompleteCellFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E54AB58183B897900C1BD09 /* CITFlightAutocompleteCellFactory.m */; };
+		9E54AB5C183B9B7B00C1BD09 /* CITFlightSuggestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E54AB5B183B9B7B00C1BD09 /* CITFlightSuggestion.m */; };
+		9E5D5B601834AC5B0041F85F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E5D5B5F1834AC5B0041F85F /* Foundation.framework */; };
+		9E5D5B621834AC5B0041F85F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E5D5B611834AC5B0041F85F /* CoreGraphics.framework */; };
+		9E5D5B641834AC5B0041F85F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E5D5B631834AC5B0041F85F /* UIKit.framework */; };
+		9E5D5B6A1834AC5B0041F85F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9E5D5B681834AC5B0041F85F /* InfoPlist.strings */; };
+		9E5D5B6C1834AC5B0041F85F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5D5B6B1834AC5B0041F85F /* main.m */; };
+		9E5D5B701834AC5B0041F85F /* CITAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5D5B6F1834AC5B0041F85F /* CITAppDelegate.m */; };
+		9E5D5B7B1834AC5B0041F85F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E5D5B7A1834AC5B0041F85F /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5B45E1C6B6624FE2BBC74BC6 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		9E0B0DA518374F5000E69898 /* ImageSpinner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageSpinner.h; sourceTree = "<group>"; };
+		9E0B0DA618374F5000E69898 /* ImageSpinner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageSpinner.m; sourceTree = "<group>"; };
+		9E0B0DA81837500900E69898 /* loading_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loading_icon.png; path = ../../../../kishoremaramreddy/Desktop/loading_icon.png; sourceTree = "<group>"; };
+		9E13E403184708A200CA0A43 /* CITTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITTextField.h; sourceTree = "<group>"; };
+		9E13E404184708A200CA0A43 /* CITTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITTextField.m; sourceTree = "<group>"; };
+		9E203C601835060B0047D5AC /* CITMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITMenuViewController.h; sourceTree = "<group>"; };
+		9E203C611835060B0047D5AC /* CITMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITMenuViewController.m; sourceTree = "<group>"; };
+		9E203C6318350F700047D5AC /* CITNetworkEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITNetworkEngine.h; sourceTree = "<group>"; };
+		9E203C6418350F700047D5AC /* CITNetworkEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITNetworkEngine.m; sourceTree = "<group>"; };
+		9E203C67183511460047D5AC /* CITUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITUtils.h; sourceTree = "<group>"; };
+		9E203C68183511460047D5AC /* CITUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITUtils.m; sourceTree = "<group>"; };
+		9E203C6A183514FD0047D5AC /* CITInitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITInitialViewController.h; sourceTree = "<group>"; };
+		9E203C6B183514FD0047D5AC /* CITInitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITInitialViewController.m; sourceTree = "<group>"; };
+		9E203C70183517F70047D5AC /* btn_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_normal.png; path = "../../../Android/CostamarMovil/res/drawable-xhdpi/btn_normal.png"; sourceTree = "<group>"; };
+		9E203C71183517F70047D5AC /* btn_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_pressed.png; path = "../../../Android/CostamarMovil/res/drawable-xhdpi/btn_pressed.png"; sourceTree = "<group>"; };
+		9E3343A41835233600C0249D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9E3343A61835236D00C0249D /* iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhone.storyboard; sourceTree = "<group>"; };
+		9E3343A91835253100C0249D /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = "../../../Android/CostamarMovil/res/drawable-xhdpi/logo.png"; sourceTree = "<group>"; };
+		9E3756241835EAB3005C0738 /* select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = select.png; path = ../../../../kishoremaramreddy/Desktop/select.png; sourceTree = "<group>"; };
+		9E37562A1836329F005C0738 /* costamar_nav_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = costamar_nav_bg.png; path = ../../../../kishoremaramreddy/Desktop/costamar_nav_bg.png; sourceTree = "<group>"; };
+		9E37562B1836329F005C0738 /* costamar_nav_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "costamar_nav_bg@2x.png"; path = "../../../../kishoremaramreddy/Desktop/costamar_nav_bg@2x.png"; sourceTree = "<group>"; };
+		9E37562E18363388005C0738 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = back.png; path = ../../../../kishoremaramreddy/Desktop/back.png; sourceTree = "<group>"; };
+		9E37563018363949005C0738 /* CITSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITSearchViewController.h; sourceTree = "<group>"; };
+		9E37563118363949005C0738 /* CITSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITSearchViewController.m; sourceTree = "<group>"; };
+		9E37563318363E77005C0738 /* calendar_week.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = calendar_week.png; path = "../../../Android/CostamarMovil/res/drawable-xhdpi/calendar_week.png"; sourceTree = "<group>"; };
+		9E37563418363E77005C0738 /* child.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = child.png; path = "../../../Android/CostamarMovil/res/drawable-xhdpi/child.png"; sourceTree = "<group>"; };
+		9E37563518363E77005C0738 /* infant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = infant.png; path = "../../../Android/CostamarMovil/res/drawable-xhdpi/infant.png"; sourceTree = "<group>"; };
+		9E37563618363E77005C0738 /* orange_rect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = orange_rect.png; path = "../../../Android/CostamarMovil/res/drawable-xhdpi/orange_rect.png"; sourceTree = "<group>"; };
+		9E37563718363E77005C0738 /* seat_combo_box_pressed.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = seat_combo_box_pressed.9.png; path = "../../../Android/CostamarMovil/res/drawable-xhdpi/seat_combo_box_pressed.9.png"; sourceTree = "<group>"; };
+		9E37563818363E78005C0738 /* seat_combo_box.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = seat_combo_box.9.png; path = "../../../Android/CostamarMovil/res/drawable-xhdpi/seat_combo_box.9.png"; sourceTree = "<group>"; };
+		9E37563918363E78005C0738 /* seat_tariff_9.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = seat_tariff_9.9.png; path = "../../../Android/CostamarMovil/res/drawable-xhdpi/seat_tariff_9.9.png"; sourceTree = "<group>"; };
+		9E37563A18363E78005C0738 /* tab_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tab_pressed.png; path = "../../../Android/CostamarMovil/res/drawable-xhdpi/tab_pressed.png"; sourceTree = "<group>"; };
+		9E37563B18363E78005C0738 /* two_way.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = two_way.png; path = "../../../Android/CostamarMovil/res/drawable-xhdpi/two_way.png"; sourceTree = "<group>"; };
+		9E37563C18363E78005C0738 /* adult.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = adult.png; path = "../../../Android/CostamarMovil/res/drawable-xhdpi/adult.png"; sourceTree = "<group>"; };
+		9E37563D18363E78005C0738 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = "../../../Android/CostamarMovil/res/drawable-xhdpi/background.png"; sourceTree = "<group>"; };
+		9E37563E18363E78005C0738 /* blue_rect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blue_rect.png; path = "../../../Android/CostamarMovil/res/drawable-xhdpi/blue_rect.png"; sourceTree = "<group>"; };
+		9E37563F18363E78005C0738 /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = calendar.png; path = "../../../Android/CostamarMovil/res/drawable-xhdpi/calendar.png"; sourceTree = "<group>"; };
+		9E37564018363E78005C0738 /* image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = image.jpg; path = "../../../Android/CostamarMovil/res/drawable-xhdpi/image.jpg"; sourceTree = "<group>"; };
+		9E37564118363E78005C0738 /* seat_tariff_pressed9.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = seat_tariff_pressed9.9.png; path = "../../../Android/CostamarMovil/res/drawable-xhdpi/seat_tariff_pressed9.9.png"; sourceTree = "<group>"; };
+		9E37564318363E78005C0738 /* tab_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tab_normal.png; path = "../../../Android/CostamarMovil/res/drawable-xhdpi/tab_normal.png"; sourceTree = "<group>"; };
+		9E37565D18366A43005C0738 /* select_location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = select_location.png; path = ../../../../kishoremaramreddy/Desktop/select_location.png; sourceTree = "<group>"; };
+		9E482A2C183A0D1900F8921D /* CITMultiDestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITMultiDestViewController.h; sourceTree = "<group>"; };
+		9E482A2D183A0D1900F8921D /* CITMultiDestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITMultiDestViewController.m; sourceTree = "<group>"; };
+		9E482A2F183A14CE00F8921D /* remove.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = remove.png; path = ../../../../kishoremaramreddy/Dropbox/Mobisys/CostamarMovil/res/drawable/remove.png; sourceTree = "<group>"; };
+		9E482A31183A175100F8921D /* CITMultiDestCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITMultiDestCell.h; sourceTree = "<group>"; };
+		9E482A32183A175100F8921D /* CITMultiDestCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITMultiDestCell.m; sourceTree = "<group>"; };
+		9E482A34183A3CDD00F8921D /* CITAddNewDestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITAddNewDestViewController.h; sourceTree = "<group>"; };
+		9E482A35183A3CDD00F8921D /* CITAddNewDestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITAddNewDestViewController.m; sourceTree = "<group>"; };
+		9E482A37183A471E00F8921D /* historial.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = historial.png; path = ../../../../kishoremaramreddy/Dropbox/Mobisys/CostamarMovil/res/drawable/historial.png; sourceTree = "<group>"; };
+		9E482A38183A471E00F8921D /* alerts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = alerts.png; path = ../../../../kishoremaramreddy/Dropbox/Mobisys/CostamarMovil/res/drawable/alerts.png; sourceTree = "<group>"; };
+		9E482A39183A471E00F8921D /* car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = car.png; path = ../../../../kishoremaramreddy/Dropbox/Mobisys/CostamarMovil/res/drawable/car.png; sourceTree = "<group>"; };
+		9E482A3A183A471E00F8921D /* config.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = config.png; path = ../../../../kishoremaramreddy/Dropbox/Mobisys/CostamarMovil/res/drawable/config.png; sourceTree = "<group>"; };
+		9E482A3B183A471E00F8921D /* cruise.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cruise.png; path = ../../../../kishoremaramreddy/Dropbox/Mobisys/CostamarMovil/res/drawable/cruise.png; sourceTree = "<group>"; };
+		9E482A3C183A471E00F8921D /* flights.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = flights.png; path = ../../../../kishoremaramreddy/Dropbox/Mobisys/CostamarMovil/res/drawable/flights.png; sourceTree = "<group>"; };
+		9E482A3D183A471E00F8921D /* hotel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hotel.png; path = ../../../../kishoremaramreddy/Dropbox/Mobisys/CostamarMovil/res/drawable/hotel.png; sourceTree = "<group>"; };
+		9E482A3E183A471E00F8921D /* tour.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tour.png; path = ../../../../kishoremaramreddy/Dropbox/Mobisys/CostamarMovil/res/drawable/tour.png; sourceTree = "<group>"; };
+		9E482A47183A634D00F8921D /* MMPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMPickerView.m; path = ../../../../kishoremaramreddy/Desktop/MMPickerView.m; sourceTree = "<group>"; };
+		9E482A48183A634D00F8921D /* MMPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMPickerView.h; path = ../../../../kishoremaramreddy/Desktop/MMPickerView.h; sourceTree = "<group>"; };
+		9E54AB50183B369100C1BD09 /* CITCountry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITCountry.h; sourceTree = "<group>"; };
+		9E54AB51183B369100C1BD09 /* CITCountry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITCountry.m; sourceTree = "<group>"; };
+		9E54AB54183B875900C1BD09 /* CITFlightDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITFlightDataSource.h; sourceTree = "<group>"; };
+		9E54AB55183B875900C1BD09 /* CITFlightDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITFlightDataSource.m; sourceTree = "<group>"; };
+		9E54AB57183B897900C1BD09 /* CITFlightAutocompleteCellFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITFlightAutocompleteCellFactory.h; sourceTree = "<group>"; };
+		9E54AB58183B897900C1BD09 /* CITFlightAutocompleteCellFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITFlightAutocompleteCellFactory.m; sourceTree = "<group>"; };
+		9E54AB5A183B9B7B00C1BD09 /* CITFlightSuggestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CITFlightSuggestion.h; sourceTree = "<group>"; };
+		9E54AB5B183B9B7B00C1BD09 /* CITFlightSuggestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CITFlightSuggestion.m; sourceTree = "<group>"; };
+		9E5D5B5C1834AC5B0041F85F /* costamar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = costamar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E5D5B5F1834AC5B0041F85F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9E5D5B611834AC5B0041F85F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9E5D5B631834AC5B0041F85F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9E5D5B671834AC5B0041F85F /* costamar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "costamar-Info.plist"; sourceTree = "<group>"; };
+		9E5D5B691834AC5B0041F85F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9E5D5B6B1834AC5B0041F85F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9E5D5B6D1834AC5B0041F85F /* costamar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "costamar-Prefix.pch"; sourceTree = "<group>"; };
+		9E5D5B6E1834AC5B0041F85F /* CITAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CITAppDelegate.h; sourceTree = "<group>"; };
+		9E5D5B6F1834AC5B0041F85F /* CITAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CITAppDelegate.m; sourceTree = "<group>"; };
+		9E5D5B7A1834AC5B0041F85F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9E5D5B811834AC5B0041F85F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9E5D5B891834AC5B0041F85F /* costamarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "costamarTests-Info.plist"; sourceTree = "<group>"; };
+		9E5D5B8B1834AC5B0041F85F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9E5D5B8D1834AC5B0041F85F /* costamarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = costamarTests.m; sourceTree = "<group>"; };
+		E16C299A27524265B4F67B46 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E5D5B591834AC5B0041F85F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E5D5B621834AC5B0041F85F /* CoreGraphics.framework in Frameworks */,
+				9E5D5B641834AC5B0041F85F /* UIKit.framework in Frameworks */,
+				9E5D5B601834AC5B0041F85F /* Foundation.framework in Frameworks */,
+				694F2BE8DA3F4A649EFF24C6 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E0B0DA418374F1D00E69898 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9E482A48183A634D00F8921D /* MMPickerView.h */,
+				9E482A47183A634D00F8921D /* MMPickerView.m */,
+				9E0B0DA518374F5000E69898 /* ImageSpinner.h */,
+				9E0B0DA618374F5000E69898 /* ImageSpinner.m */,
+				9E482A31183A175100F8921D /* CITMultiDestCell.h */,
+				9E482A32183A175100F8921D /* CITMultiDestCell.m */,
+				9E54AB57183B897900C1BD09 /* CITFlightAutocompleteCellFactory.h */,
+				9E54AB58183B897900C1BD09 /* CITFlightAutocompleteCellFactory.m */,
+				9E13E403184708A200CA0A43 /* CITTextField.h */,
+				9E13E404184708A200CA0A43 /* CITTextField.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		9E203C5D183505A80047D5AC /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				9E203C6318350F700047D5AC /* CITNetworkEngine.h */,
+				9E203C6418350F700047D5AC /* CITNetworkEngine.m */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		9E203C5E183505B90047D5AC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9E54AB50183B369100C1BD09 /* CITCountry.h */,
+				9E54AB51183B369100C1BD09 /* CITCountry.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		9E203C5F183505D90047D5AC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9E203C601835060B0047D5AC /* CITMenuViewController.h */,
+				9E203C611835060B0047D5AC /* CITMenuViewController.m */,
+				9E203C6A183514FD0047D5AC /* CITInitialViewController.h */,
+				9E203C6B183514FD0047D5AC /* CITInitialViewController.m */,
+				9E37563018363949005C0738 /* CITSearchViewController.h */,
+				9E37563118363949005C0738 /* CITSearchViewController.m */,
+				9E482A2C183A0D1900F8921D /* CITMultiDestViewController.h */,
+				9E482A2D183A0D1900F8921D /* CITMultiDestViewController.m */,
+				9E482A34183A3CDD00F8921D /* CITAddNewDestViewController.h */,
+				9E482A35183A3CDD00F8921D /* CITAddNewDestViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		9E203C66183511300047D5AC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9E203C67183511460047D5AC /* CITUtils.h */,
+				9E203C68183511460047D5AC /* CITUtils.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		9E203C6D1835173D0047D5AC /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				9E203C6F1835174D0047D5AC /* Icons */,
+				9E203C6E183517440047D5AC /* Images */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		9E203C6E183517440047D5AC /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9E37565D18366A43005C0738 /* select_location.png */,
+				9E37563318363E77005C0738 /* calendar_week.png */,
+				9E37563418363E77005C0738 /* child.png */,
+				9E37563518363E77005C0738 /* infant.png */,
+				9E37563618363E77005C0738 /* orange_rect.png */,
+				9E37563718363E77005C0738 /* seat_combo_box_pressed.9.png */,
+				9E37563818363E78005C0738 /* seat_combo_box.9.png */,
+				9E37563918363E78005C0738 /* seat_tariff_9.9.png */,
+				9E37563A18363E78005C0738 /* tab_pressed.png */,
+				9E37563B18363E78005C0738 /* two_way.png */,
+				9E37563C18363E78005C0738 /* adult.png */,
+				9E37563D18363E78005C0738 /* background.png */,
+				9E37563E18363E78005C0738 /* blue_rect.png */,
+				9E37563F18363E78005C0738 /* calendar.png */,
+				9E37564018363E78005C0738 /* image.jpg */,
+				9E37564118363E78005C0738 /* seat_tariff_pressed9.9.png */,
+				9E37564318363E78005C0738 /* tab_normal.png */,
+				9E37562A1836329F005C0738 /* costamar_nav_bg.png */,
+				9E37562B1836329F005C0738 /* costamar_nav_bg@2x.png */,
+				9E3756241835EAB3005C0738 /* select.png */,
+				9E3343A91835253100C0249D /* logo.png */,
+				9E203C70183517F70047D5AC /* btn_normal.png */,
+				9E203C71183517F70047D5AC /* btn_pressed.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		9E203C6F1835174D0047D5AC /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				9E482A37183A471E00F8921D /* historial.png */,
+				9E482A38183A471E00F8921D /* alerts.png */,
+				9E482A39183A471E00F8921D /* car.png */,
+				9E482A3A183A471E00F8921D /* config.png */,
+				9E482A3B183A471E00F8921D /* cruise.png */,
+				9E482A3C183A471E00F8921D /* flights.png */,
+				9E482A3D183A471E00F8921D /* hotel.png */,
+				9E482A3E183A471E00F8921D /* tour.png */,
+				9E482A2F183A14CE00F8921D /* remove.png */,
+				9E0B0DA81837500900E69898 /* loading_icon.png */,
+				9E37562E18363388005C0738 /* back.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		9E54AB53183B86F900C1BD09 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				9E54AB54183B875900C1BD09 /* CITFlightDataSource.h */,
+				9E54AB55183B875900C1BD09 /* CITFlightDataSource.m */,
+				9E54AB5A183B9B7B00C1BD09 /* CITFlightSuggestion.h */,
+				9E54AB5B183B9B7B00C1BD09 /* CITFlightSuggestion.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		9E5D5B531834AC5B0041F85F = {
+			isa = PBXGroup;
+			children = (
+				9E3343A41835233600C0249D /* Default-568h@2x.png */,
+				9E5D5B651834AC5B0041F85F /* costamar */,
+				9E5D5B871834AC5B0041F85F /* costamarTests */,
+				9E5D5B5E1834AC5B0041F85F /* Frameworks */,
+				9E5D5B5D1834AC5B0041F85F /* Products */,
+				5B45E1C6B6624FE2BBC74BC6 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		9E5D5B5D1834AC5B0041F85F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E5D5B5C1834AC5B0041F85F /* costamar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E5D5B5E1834AC5B0041F85F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E5D5B5F1834AC5B0041F85F /* Foundation.framework */,
+				9E5D5B611834AC5B0041F85F /* CoreGraphics.framework */,
+				9E5D5B631834AC5B0041F85F /* UIKit.framework */,
+				9E5D5B811834AC5B0041F85F /* XCTest.framework */,
+				E16C299A27524265B4F67B46 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E5D5B651834AC5B0041F85F /* costamar */ = {
+			isa = PBXGroup;
+			children = (
+				9E54AB53183B86F900C1BD09 /* Data */,
+				9E203C6D1835173D0047D5AC /* Assets */,
+				9E203C66183511300047D5AC /* Utils */,
+				9E0B0DA418374F1D00E69898 /* Views */,
+				9E203C5F183505D90047D5AC /* Controllers */,
+				9E203C5E183505B90047D5AC /* Models */,
+				9E203C5D183505A80047D5AC /* Networking */,
+				9E5D5B6E1834AC5B0041F85F /* CITAppDelegate.h */,
+				9E5D5B6F1834AC5B0041F85F /* CITAppDelegate.m */,
+				9E3343A61835236D00C0249D /* iPhone.storyboard */,
+				9E5D5B7A1834AC5B0041F85F /* Images.xcassets */,
+				9E5D5B661834AC5B0041F85F /* Supporting Files */,
+			);
+			path = costamar;
+			sourceTree = "<group>";
+		};
+		9E5D5B661834AC5B0041F85F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E5D5B671834AC5B0041F85F /* costamar-Info.plist */,
+				9E5D5B681834AC5B0041F85F /* InfoPlist.strings */,
+				9E5D5B6B1834AC5B0041F85F /* main.m */,
+				9E5D5B6D1834AC5B0041F85F /* costamar-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9E5D5B871834AC5B0041F85F /* costamarTests */ = {
+			isa = PBXGroup;
+			children = (
+				9E5D5B8D1834AC5B0041F85F /* costamarTests.m */,
+				9E5D5B881834AC5B0041F85F /* Supporting Files */,
+			);
+			path = costamarTests;
+			sourceTree = "<group>";
+		};
+		9E5D5B881834AC5B0041F85F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E5D5B891834AC5B0041F85F /* costamarTests-Info.plist */,
+				9E5D5B8A1834AC5B0041F85F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E5D5B5B1834AC5B0041F85F /* costamar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E5D5B911834AC5B0041F85F /* Build configuration list for PBXNativeTarget "costamar" */;
+			buildPhases = (
+				C54EC00AAD3C449987F703AF /* Check Pods Manifest.lock */,
+				9E5D5B581834AC5B0041F85F /* Sources */,
+				9E5D5B591834AC5B0041F85F /* Frameworks */,
+				9E5D5B5A1834AC5B0041F85F /* Resources */,
+				E76445592F16420BB0CE4651 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = costamar;
+			productName = costamar;
+			productReference = 9E5D5B5C1834AC5B0041F85F /* costamar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E5D5B541834AC5B0041F85F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CIT;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Mobisys Technology";
+				TargetAttributes = {
+					9E5D5B7F1834AC5B0041F85F = {
+						TestTargetID = 9E5D5B5B1834AC5B0041F85F;
+					};
+				};
+			};
+			buildConfigurationList = 9E5D5B571834AC5B0041F85F /* Build configuration list for PBXProject "costamar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9E5D5B531834AC5B0041F85F;
+			productRefGroup = 9E5D5B5D1834AC5B0041F85F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E5D5B5B1834AC5B0041F85F /* costamar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E5D5B5A1834AC5B0041F85F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E203C73183517F70047D5AC /* btn_pressed.png in Resources */,
+				9E203C72183517F70047D5AC /* btn_normal.png in Resources */,
+				9E5D5B7B1834AC5B0041F85F /* Images.xcassets in Resources */,
+				9E5D5B6A1834AC5B0041F85F /* InfoPlist.strings in Resources */,
+				9E3343A51835233600C0249D /* Default-568h@2x.png in Resources */,
+				9E3343A71835236D00C0249D /* iPhone.storyboard in Resources */,
+				9E3343AB1835253100C0249D /* logo.png in Resources */,
+				9E3756251835EAB3005C0738 /* select.png in Resources */,
+				9E37562C1836329F005C0738 /* costamar_nav_bg.png in Resources */,
+				9E37562D1836329F005C0738 /* costamar_nav_bg@2x.png in Resources */,
+				9E37562F18363388005C0738 /* back.png in Resources */,
+				9E37564418363E78005C0738 /* calendar_week.png in Resources */,
+				9E37564518363E78005C0738 /* child.png in Resources */,
+				9E37564618363E78005C0738 /* infant.png in Resources */,
+				9E37564718363E78005C0738 /* orange_rect.png in Resources */,
+				9E37564818363E78005C0738 /* seat_combo_box_pressed.9.png in Resources */,
+				9E37564918363E78005C0738 /* seat_combo_box.9.png in Resources */,
+				9E37564A18363E78005C0738 /* seat_tariff_9.9.png in Resources */,
+				9E37564B18363E78005C0738 /* tab_pressed.png in Resources */,
+				9E37564C18363E78005C0738 /* two_way.png in Resources */,
+				9E37564D18363E78005C0738 /* adult.png in Resources */,
+				9E37564E18363E78005C0738 /* background.png in Resources */,
+				9E37564F18363E78005C0738 /* blue_rect.png in Resources */,
+				9E37565018363E78005C0738 /* calendar.png in Resources */,
+				9E37565118363E78005C0738 /* image.jpg in Resources */,
+				9E37565218363E78005C0738 /* seat_tariff_pressed9.9.png in Resources */,
+				9E37565418363E78005C0738 /* tab_normal.png in Resources */,
+				9E37565E18366A43005C0738 /* select_location.png in Resources */,
+				9E0B0DA91837500900E69898 /* loading_icon.png in Resources */,
+				9E482A30183A14CE00F8921D /* remove.png in Resources */,
+				9E482A3F183A471F00F8921D /* historial.png in Resources */,
+				9E482A40183A471F00F8921D /* alerts.png in Resources */,
+				9E482A41183A471F00F8921D /* car.png in Resources */,
+				9E482A42183A471F00F8921D /* config.png in Resources */,
+				9E482A43183A471F00F8921D /* cruise.png in Resources */,
+				9E482A44183A471F00F8921D /* flights.png in Resources */,
+				9E482A45183A471F00F8921D /* hotel.png in Resources */,
+				9E482A46183A471F00F8921D /* tour.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C54EC00AAD3C449987F703AF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E76445592F16420BB0CE4651 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E5D5B581834AC5B0041F85F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E5D5B6C1834AC5B0041F85F /* main.m in Sources */,
+				9E203C69183511460047D5AC /* CITUtils.m in Sources */,
+				9E203C6518350F700047D5AC /* CITNetworkEngine.m in Sources */,
+				9E5D5B701834AC5B0041F85F /* CITAppDelegate.m in Sources */,
+				9E203C6C183514FD0047D5AC /* CITInitialViewController.m in Sources */,
+				9E203C621835060B0047D5AC /* CITMenuViewController.m in Sources */,
+				9E37563218363949005C0738 /* CITSearchViewController.m in Sources */,
+				9E0B0DA718374F5000E69898 /* ImageSpinner.m in Sources */,
+				9E482A2E183A0D1900F8921D /* CITMultiDestViewController.m in Sources */,
+				9E482A33183A175100F8921D /* CITMultiDestCell.m in Sources */,
+				9E482A36183A3CDE00F8921D /* CITAddNewDestViewController.m in Sources */,
+				9E482A49183A634D00F8921D /* MMPickerView.m in Sources */,
+				9E54AB52183B369100C1BD09 /* CITCountry.m in Sources */,
+				9E54AB56183B875900C1BD09 /* CITFlightDataSource.m in Sources */,
+				9E54AB59183B897900C1BD09 /* CITFlightAutocompleteCellFactory.m in Sources */,
+				9E54AB5C183B9B7B00C1BD09 /* CITFlightSuggestion.m in Sources */,
+				9E13E405184708A200CA0A43 /* CITTextField.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9E5D5B681834AC5B0041F85F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E5D5B691834AC5B0041F85F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9E5D5B8A1834AC5B0041F85F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E5D5B8B1834AC5B0041F85F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9E5D5B8F1834AC5B0041F85F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9E5D5B901834AC5B0041F85F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E5D5B921834AC5B0041F85F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B45E1C6B6624FE2BBC74BC6 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "costamar/costamar-Prefix.pch";
+				INFOPLIST_FILE = "costamar/costamar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9E5D5B931834AC5B0041F85F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B45E1C6B6624FE2BBC74BC6 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "costamar/costamar-Prefix.pch";
+				INFOPLIST_FILE = "costamar/costamar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E5D5B571834AC5B0041F85F /* Build configuration list for PBXProject "costamar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E5D5B8F1834AC5B0041F85F /* Debug */,
+				9E5D5B901834AC5B0041F85F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E5D5B911834AC5B0041F85F /* Build configuration list for PBXNativeTarget "costamar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E5D5B921834AC5B0041F85F /* Debug */,
+				9E5D5B931834AC5B0041F85F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E5D5B541834AC5B0041F85F /* Project object */;
+}

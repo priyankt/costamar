@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Costamar Movil</string>
+    <string name="btn_one_way">Sólo Ida</string>
+	<string name="btn_multi_way">Ida y vuelta</string>
+	<string name="btn_multi_destination">Multidestino</string>
+    <string name="btn_create_alert">Crear alerta</string>
+    <string name="btn_apply">Aplicar</string>
+    <string name="btn_enter">Ingresar</string>
+    <string name="btn_duration">Duración</string>
+	<string name="btn_search_flight">Buscar Vuelos</string>
+	<string name="btn_see_history">Ver Historial</string>
+	<string name="btn_add_dest">Añadir Vuelo</string>
+    <string name="btn_all">Todos</string>
+    <string name="btn_filter">Filtros adicionales</string>
+    <string name="btn_sort">Ordenado por</string>
+    <string name="btn_none">Ninguno</string>
+    <string name="btn_reset">Reset</string>
+	<string name="btn_cancel">Cancelar</string>
+    <string name="btn_price">Precio</string>
+    <string name="btn_reservation">RESERVAR</string>
+    <string name="btn_next">Siguiente</string>
+    <string name="btn_ok">Aceptar</string>
+    <string name="btn_clean_history">Limpiar</string>
+	<string name="departure_date">Fecha de Salida</string>
+	<string name="return_date">Fecha retorno</string>
+	<string name="tariff">Tarifa</string>
+	<string name="adults">Adultos</string>
+	<string name="childs">Niños</string>
+	<string name="infants">Infantes</string>
+	<string name="adults_abrv">Adt.</string>
+	<string name="childs_abrv">Niño.</string>
+	<string name="infants_abrv">Inf.</string>
+	<string name="adult_condition">12 o + años</string>
+	<string name="child_condition">2 - 11 años</string>
+	<string name="infant_condition">0 - 23 meses</string>
+	<string name="date">Fecha</string>
+	<string name="retry">Reintentar</string>
+    <string name="error">Error</string>
+	<string name="label_origin">Origen</string>
+	<string name="label_destination">Destino</string>
+	<string name="label_frequency">Frecuencia</string>
+	<string name="label_notifyby">Notificar por</string>
+    <string name="label_myalerts">Mis Alertas</string>
+    <string name="label_country">País:</string>    
+    <string name="label_select_country">Por favor seleccione su país:</string>
+    <string name="label_welcome_to">Bienvenidos a:</string>
+    <string name="label_filter">Filtros</string>
+    <string name="label_history">Historial de búsqueda</string>
+    <string name="label_history_config">Historial</string>
+    <string name="label_config">Parámetros de configuración</string>
+    <string name="label_airline">Aerolíneas</string>
+    <string name="label_stop">Paradas</string>
+    <string name="label_duration">Duración</string>
+    <string name="label_pax_qty">Pasajeros</string>
+    <string name="label_max_price">Precio máx.</string>
+    <string name="label_best_price">Mejor precio</string>
+    <string name="label_contact">Información de contacto</string>
+    <string name="label_name">Nombre</string>
+    <string name="label_lastname1">Apellido pat.</string>
+    <string name="label_lastname2">Apellido mat.</string>
+    <string name="label_agree">Acepto los términos y condiciones</string>    
+    <string name="label_adult_no">Adulto %d</string>
+    <string name="label_child_no">Niño %d</string>
+    <string name="label_infant_no">Infante %d</string>
+    <string name="label_title">Titulo</string>
+    <string name="label_dob">Fec. nacimiento</string>
+    <string name="label_country_issue_id">País</string>
+    <string name="label_doc_type">Tipo doc.</string>
+    <string name="label_doc_number">Número doc.</string>
+    <string name="label_email">Email</string>
+    <string name="label_confirm_email">Confirmar email</string>
+    <string name="label_country_phone">País</string>
+    <string name="label_phone">Teléfono</string>
+    <string name="label_parent_repsonsible">Adulto a cargo</string>
+    <string name="label_pnr">Cód. reserva: %s</string>
+    
+    <string name="select">Seleccione</string>
+    <string name="remove">Borrar</string>
+    
+    <!-- nuevo a revisar -->    
+    <string name="choose_payment">Escoga medio de pago</string>
+    <string name="select_option">Por favor seleccione su medio de pago</string>
+    <string name="regulations">(Haga clic en el círculo al lado del medio de pago preferido)</string>
+    <string name="terms_conditions">Haga click para ver los términos y condiciones</string>
+    <string name="title_tandc">Términos y condiciones</string>
+    
+    <!-- hints -->
+    <string name="hint_dob">Fecha de nacimiento</string>    
+    
+    <!-- Label con formato -->
+    
+    <string name="result_count" formatted="false">Resultados encontrados: %d de %d</string>
+    <string name="base_price">Precio Total: &lt;font color="#f39200">$%S&lt;/font></string>
+    <string name="airline_1">&lt;font color="#706f6f">&lt;b>Aerolinea:&lt;/b>&lt;/font> %s</string>
+    <string name="tarifa_1">&lt;font color="#706f6f">&lt;b>Tarifa:&lt;/b>&lt;/font> %s</string>
+    <string name="operated_1" formatted="false">&lt;font color="#706f6f">&lt;b>Operado por:&lt;/b>&lt;/font> %s \u00A0 \u00A0 \u00A0 \u00A0 &lt;font color="#706f6f">&lt;b>Vuelo:&lt;/b>&lt;/font> %s</string>
+    <string name="label_datefrom" formatted="false">&lt;font color="#706f6f">Ida:&lt;/font> %s</string>
+    <string name="label_dateto" formatted="false">&lt;font color="#706f6f">Vuelta:&lt;/font> %s</string>
+    <string name="label_route" formatted="false">&lt;font color="#706f6f">Ruta:&lt;/font> %s - %s</string>
+    <string name="departure_detail" formatted="false">&lt;font color="#706f6f">Salida:&lt;/font> %s %s</string>
+    <string name="departure_detail_1" formatted="false">&lt;font color="#706f6f">&lt;b>Salida:&lt;/b>&lt;/font> %s \u00A0 \u00A0 \u00A0 \u00A0 &lt;font color="#706f6f">&lt;b>Hora:&lt;/b>&lt;/font> %s</string>
+    <string name="arrival_detail" formatted="false">&lt;font color="#706f6f">Llegada:&lt;/font> %s %s</string>
+    <string name="arrival_detail_1" formatted="false">&lt;font color="#706f6f">&lt;b>Llegada:&lt;/b>&lt;/font> %s \u00A0 \u00A0 \u00A0 &lt;font color="#706f6f">&lt;b>Hora:&lt;/b>&lt;/font> %s</string>
+    <string name="stop">&lt;font color="#e94e1b">Escalas: %s&lt;/font></string>
+    <string name="airline">Aerolinea: %s</string>
+    <string name="station_names" formatted="false">%s - %s</string>
+    <string name="price_found" formatted="false">Precio encontrado: %s</string>
+    
+    <!-- Mensajes al usuario -->
+    <string name="booking_status">No se puede hacer la reserva</string>
+    <string name="select_agree">Por favor lea los terminos y condiciones</string>
+    <string name="select_payment_option">Por favor seleccione una opción de pago</string>
+    <string name="no_search_result">No se encontraron resultados.. Por favor intente nuevamente..</string>
+    <string name="no_alert_result">No se encontraron alertas creadas.</string>
+    <string name="no_history_result">No se encontraron búsquedas previas.</string>
+	<string name="hint">Tip: Toque el primer o último día del mes siguiente o anterior.</string>
+	<string name="error_uncaught">Lo sentimos, ocurrió un error inesperado.</string>
+    <string name="no_connection">Hubo un error de conexión. Por favor verifique su internet.</string>
+    <string name="please_wait">Por favor espere</string>
+    <string name="enter_alldetails">Por favor ingrese todos los detalles</string>
+    <string name="enter_dates">Por favor ingrese las fechas de forma correcta</string>
+    <string name="loading">Cargando..</string>
+    <string name="alert_created">Se creó la alerta de forma correcta</string>
+    <string name="history_cleaned">Se limpió el historial de búsqueda</string>
+    <string name="changed_country">Se cambió el pais de forma correcta</string>
+    <string name="selectalert_action">Por favor seleccione una acción</string>
+    <string name="enter_oneflight">Por favor ingrese al menos un vuelo</string>
+    <string name="enter_adultinfo">Por favor ingrese todos los datos del pasajero adulto %s</string>
+    <string name="enter_childinfo">\r\nPor favor ingrese todos los datos del pasajero niño %s</string>
+    <string name="enter_infantinfo">\r\nPor favor ingrese todos los datos del pasajero infante %s</string>
+    <string name="enter_sameemail">Por favor ingrese los datos de contacto confirmando su email</string>
+    <string name="booking_successful">Tome nota de su código de reserva y revise las indicaciones &lt;font color="#f39200">Aquí&lt;/font></string>
+    <string name="booking_successful_payment">Pronto recibirá un email con la información de pago, tome nota de su código: &lt;font color="#f39200">%s&lt;/font></string>
+    <string name="booking_guidelines">
+        &lt;font color="#f39200">Importante, por favor léase:&lt;/font>&lt;br/>
+Gracias por escogernos para la organización de su viaje. Estamos comprometidos a proveerle un servicio de categoría mundial. Reconocemos que usted tiene otras opciones de compra de tickets y por ello queremos darle las gracias por su inversión.
+&lt;br/>&lt;br/>&lt;b>Debido a regulaciones definidas para ventas online, las tarifas correspondientes a vuelos nacionales o domésticos cuentan con un plazo de 1 hora para la confirmación de su pago. Tarifas correspondientes a vuelos internacionales contarán con un plazo de hasta 5 horas para la confirmación de su pago.&lt;/b>
+&lt;br/>&lt;br/>Tickets electrónicos (e-tickets) serán emitidos al ser confirmado el pago. Ciertas líneas aéreas no permiten e-tickets en todas las reservas. Si los e-tickets no pueden ser emitidos para su reserva, un boleto de papel le será enviado. Comisiones adicionales se aplicarán por el ticket de papel. Por favor recuerde los términos y condiciones detallados en el sitio web previos a la reservación. Estas comisiones cubren el envío dentro del país en donde se ha generado la reserva como punto de partida del viaje y la tramitación de su boleto de papel. Gastos adicionales se aplicarán para otros destinos de envío.
+&lt;br/>&lt;br/>Se requiere que los pasajeros reconfirmen su vuelo 72 (setenta y dos) horas antes de la salida con la aerolínea con la que está viajando. Además se requiere que los pasajeros lleguen al counter respectivo 3 (tres) horas antes de la salida para viajes internacionales y 2 (dos) horas antes de la salida para viajes domésticos o nacionales. No podemos hacernos responsables de los cambios de vuelos hechos por la aerolínea, pero de presentarse estos contratiempos veremos al forma de asistirlo y ayudarlo. Si el pasajero pierde o no se presenta para su vuelo y no notifica a la aerolínea el motivo por el cual no podrá presentarse, el pasajero asume toda responsabilidad por cualquier cambio o cancelación o en todo caso perder el valor del boleto. La política sobre el no show (no hacerse presente) en el aeropuerto el día del vuelo, es una regla mandatoria de la aerolínea y está sujeta a discreción y manejo de ellos mismos. Sin embargo, la mayor parte de aerolíneas no miran el no show (no hacerse presente) como una violación a sus políticas de boletos, que quiere decir pierde alguno y todos los fondos pagados por dicho boleto. Esto quiere decir que existe la posibilidad de que se deba de hacer un pago de penalidad para poder recuperar dicho boleto. La distancia recorrida en millas de usuario puede ser aumentada sobre algunos portadores. Por favor póngase en contacto con su aerolínea para acordar su número de distancia recorrida en millas.
+&lt;br/>&lt;br/>&lt;font color="#f39200">Las tarifas no son garantizadas hasta no ser emitidas&lt;/font>.
+&lt;br/>&lt;br/>Los pasajeros son responsables de tener al día todos los documentos de viajes requeridos. Si el pasajero intenta volar sin la documentación apropiada no podrá viajar, incluso esta información será requerida para cancelar o cambiar su ticket de viaje, entonces el pasajero asume toda la responsabilidad de alguno o todo el cambio o cancelar comisiones, si son aplicables y/o la pérdida del ticket comprado.
+&lt;br/>&lt;br/>&lt;font color="#f39200">En un acontecimiento improbable, si su ticket no puede ser procesado por ninguna razón usted será notificado vía correo electrónico o por teléfono y su pago NO será procesado.&lt;/font>
+&lt;br/>&lt;br/>NOTA: Los cambios de horarios hechos por la aerolínea, el modelo meteorológico y otros actos naturales pueden afectar sus vuelos; por lo tanto, le recomendamos nuevamente que usted reconfirme con la aerolínea directamente 72 horas antes de la salida.
+&lt;br/>&lt;font color="#f39200">Aunque su reserva esté confirmada, tendrá que ser verificada antes de ser emitida y remitida a usted, en caso de que nuestro sistema detecte algún problema en su pago con tarjeta de crédito le solicitaremos nos permita pedirle una firma de autorización para el procesamiento de débito de su tarjeta de crédito. Como se acordó cuando usted compró su ticket aéreo, todo ticket vendido es NO REEMBOLSABLE.&lt;/font>
+   </string>
+        
+    <!-- Menu items -->
+    <string name="menu_flight_title">Vuelos</string>
+    <string name="menu_history_title">Historial</string>
+    <string name="menu_hotel_title">Hoteles</string>
+    <string name="menu_alert_title">Mis Alertas</string>
+    <string name="menu_tour_title">Paquetes</string>
+    <string name="menu_config_title">Configuración</string>
+    <string name="menu_cruise_title">Crucero</string>
+    <string name="menu_car_title">Auto</string>
+    
+    <string name="menu_flight_description">Consigue los mejores vuelos</string>
+    <string name="menu_hotel_description">Consigue la mejor habitación</string>
+    <string name="menu_history_description">Mira aquí tu historial de búsqueda</string>
+    <string name="menu_alert_description">Recibe las alertas de los precios</string>
+    <string name="menu_tour_description">Arma tu paquete de viaje</string>
+    <string name="menu_config_description">Revisa tu configuración</string>
+    <string name="menu_cruise_description">Disfruta de la aventura sobre el mar</string>
+    <string name="menu_car_description">Consigue la mejor movilidad</string>
+    
+    <!-- Arrays spinner -->
+    <string-array name="doctypelabels">
+	    <item>DNI</item>
+	    <item>Pasaporte</item>
+	</string-array>
+	<string-array name="doctypevalues">
+	    <item>ID</item>
+	    <item>PP</item>
+	</string-array>   
+	<string-array name="titlelabels">
+	    <item>Sr</item>
+	    <item>Sra</item>
+	    <item>Srta</item>
+	</string-array>
+    <string-array name="stops">
+	    <item>Sin parada</item>
+	    <item>1 parada</item>
+	    <item>2+ paradas</item>
+	</string-array>
+	<string-array name="pricelabels">
+	    <item>Economica</item>
+	    <item>Economica Premium</item>
+	    <item>Primera</item>
+	    <item>Ejecutiva</item>
+	</string-array>
+	<string-array name="pricevalues">
+	    <item>Y</item>
+	    <item>W</item>
+	    <item>F</item>
+	    <item>C</item>
+	</string-array>
+	<string-array name="paxQty">
+	    <item>0</item>
+	    <item>1</item>
+	    <item>2</item>
+	    <item>3</item>
+	    <item>4</item>
+	    <item>5</item>
+	</string-array>
+	<string-array name="paxAdlQty">
+	    <item>1</item>
+	    <item>2</item>
+	    <item>3</item>
+	    <item>4</item>
+	    <item>5</item>
+	</string-array>
+	<string-array name="days">
+	    <item>Dom</item>
+	    <item>Lun</item>
+	    <item>Mar</item>
+	    <item>Mie</item>
+	    <item>Jue</item>
+	    <item>Vie</item>
+	    <item>Sab</item>
+	</string-array>
+	<string-array name="months">
+	    <item>Ene</item>
+	    <item>Feb</item>
+	    <item>Mar</item>
+	    <item>Abr</item>
+	    <item>May</item>
+	    <item>Jun</item>
+	    <item>Jul</item>
+	    <item>Ago</item>
+	    <item>Sep</item>
+	    <item>Oct</item>
+	    <item>Nov</item>
+	    <item>Dic</item>
+	</string-array>	
+	<string-array name="countrylabels">
+	    <item>ARGENTINA[AR]</item>
+		<item>BRASIL[BR]</item>
+		<item>CHILE[CL]</item>
+		<item>COLOMBIA[CO]</item>
+		<item>ECUADOR[EC]</item>
+		<item>ESTADOS UNIDOS[US]</item>
+		<item>PERÚ[PE]</item>
+		<item>MEXICO[MX]</item>
+		<item>--------------------</item>
+		<item>AFGANISTAN[AF]</item>
+		<item>ALAND[AX]</item>
+		<item>ALBANIA[AL]</item>
+		<item>ALEMANIA[DE]</item>
+		<item>ANDORRA[AD]</item>
+		<item>ANGOLA[AO]</item>
+		<item>ANGUILA[AI]</item>
+		<item>ANTARTIDA[AQ]</item>
+		<item>ANTIGUA Y BARBUDA[AG]</item>
+		<item>ANTILLAS HOLANDESAS[AN]</item>
+		<item>ARABIA SAUDITA[SA]</item>
+		<item>ARGELIA[DZ]</item>
+		<item>ARMENIA[AM]</item>
+		<item>ARUBA[AW]</item>
+		<item>AUSTRALIA[AU]</item>
+		<item>AUSTRIA[AT]</item>
+		<item>AZERBAIYAN[AZ]</item>
+		<item>BAHAMAS[BS]</item>
+		<item>BAHREIN[BH]</item>
+		<item>BANGLADESH[BD]</item>
+		<item>BARBADOS[BB]</item>
+		<item>BELGICA[BE]</item>
+		<item>BELICE[BZ]</item>
+		<item>BENIN[BJ]</item>
+		<item>BERMUDAS[BM]</item>
+		<item>BIELORUSIA[BY]</item>
+		<item>BIRMANIA[MM]</item>
+		<item>BOLIVIA[BO]</item>
+		<item>BOSNIA Y HERZEGOVINA[BA]</item>
+		<item>BOTSUANA[BW]</item>
+		<item>BRUNEI[BN]</item>
+		<item>BULGARIA[BG]</item>
+		<item>BURKINA FASO[BF]</item>
+		<item>BURUNDI[BI]</item>
+		<item>BUTAN[BT]</item>
+		<item>CABO VERDE[CV]</item>
+		<item>CAMBOYA[KH]</item>
+		<item>CAMERUN[CM]</item>
+		<item>CANADA[CA]</item>
+		<item>CHAD[TD]</item>
+		<item>CHINA[CN]</item>
+		<item>CHIPRE[CY]</item>
+		<item>CIUDAD DEL VATICANO[VA]</item>
+		<item>COMORAS[KM]</item>
+		<item>COREA DEL NORTE[KP]</item>
+		<item>COREA DEL SUR[KR]</item>
+		<item>COSTA DE MARFIL[CI]</item>
+		<item>COSTA RICA[CR]</item>
+		<item>CROACIA[HR]</item>
+		<item>CUBA[CU]</item>
+		<item>DINAMARCA[DK]</item>
+		<item>DOMINICA[DM]</item>
+		<item>EGIPTO[EG]</item>
+		<item>EL SALVADOR[SV]</item>
+		<item>EMIRATOS ARABES UNIDOS[AE]</item>
+		<item>ERITREA[ER]</item>
+		<item>ESLOVAQUIA[SK]</item>
+		<item>ESLOVENIA[SI]</item>
+		<item>ESPAÑA[ES]</item>
+		<item>ESTONIA[EE]</item>
+		<item>ETIOPIA[ET]</item>
+		<item>FILIPINAS[PH]</item>
+		<item>FINLANDIA[FI]</item>
+		<item>FIYI[FJ]</item>
+		<item>FRANCE, METROPOLITAN</item>
+		<item>FRANCIA[FR]</item>
+		<item>GABON[GA]</item>
+		<item>GAMBIA[GM]</item>
+		<item>GEORGIA[GE]</item>
+		<item>GHANA[GH]</item>
+		<item>GIBRALTAR[GI]</item>
+		<item>GRANADA[GD]</item>
+		<item>GRECIA[GR]</item>
+		<item>GROENLANDIA[GL]</item>
+		<item>GUADALUPE[GP]</item>
+		<item>GUAM[GU]</item>
+		<item>GUATEMALA[GT]</item>
+		<item>GUAYANA FRANCESA[GF]</item>
+		<item>GUERNSEY[GG]</item>
+		<item>GUINEA ECUATORIAL[GQ]</item>
+		<item>GUINEA-BISSAU[GW]</item>
+		<item>GUINEA[GN]</item>
+		<item>GUYANA[GY]</item>
+		<item>HAITI[HT]</item>
+		<item>HOLANDA[NL]</item>
+		<item>HONDURAS[HN]</item>
+		<item>HONG KONG[HK]</item>
+		<item>HUNGRIA[HU]</item>
+		<item>INDIA[IN]</item>
+		<item>INDONESIA[ID]</item>
+		<item>INGLATERRA[GB]</item>
+		<item>IRAN[IR]</item>
+		<item>IRAQ[IQ]</item>
+		<item>IRLANDA[IE]</item>
+		<item>ISLA BOUVET[BV]</item>
+		<item>ISLA DE MAN[IM]</item>
+		<item>ISLA DE NAVIDAD[CX]</item>
+		<item>ISLANDIA[IS]</item>
+		<item>ISLAS CAIMAN[KY]</item>
+		<item>ISLAS COCOS[CC]</item>
+		<item>ISLAS COOK[CK]</item>
+		<item>ISLAS FEROE[FO]</item>
+		<item>ISLAS GALAPAGOS[IG]</item>
+		<item>ISLAS GEORGIAS DEL SUR Y SANDWICH DEL SUR[GS]</item>
+		<item>ISLAS HEARD Y MCDONALD[HM]</item>
+		<item>ISLAS MALVINAS[FK]</item>
+		<item>ISLAS MARIANAS DEL NORTE[MP]</item>
+		<item>ISLAS MARSHALL[MH]</item>
+		<item>ISLAS PITCAIRN[PN]</item>
+		<item>ISLAS SALOMON[SB]</item>
+		<item>ISLAS TURCAS Y CAICOS[TC]</item>
+		<item>ISLAS ULTRAMARINAS DE ESTADOS UNIDOS[UM]</item>
+		<item>ISLAS VIRGENES BRITANICAS[VG]</item>
+		<item>ISLAS VIRGENES ESTADOUNIDENSES[VI]</item>
+		<item>ISRAEL[IL]</item>
+		<item>ITALIA[IT]</item>
+		<item>JAMAICA[JM]</item>
+		<item>JAPON[JP]</item>
+		<item>JERSEY[JE]</item>
+		<item>JORDANIA[JO]</item>
+		<item>KAZAJISTAN[KZ]</item>
+		<item>KENIA[KE]</item>
+		<item>KIRGUISTAN[KG]</item>
+		<item>KIRIBATI[KI]</item>
+		<item>KUWAIT[KW]</item>
+		<item>LAOS[LA]</item>
+		<item>LESOTO[LS]</item>
+		<item>LETONIA[LV]</item>
+		<item>LIBANO[LB]</item>
+		<item>LIBERIA[LR]</item>
+		<item>LIBIA[LY]</item>
+		<item>LIECHTENSTEIN[LI]</item>
+		<item>LITUANIA[LT]</item>
+		<item>LUXEMBURGO[LU]</item>
+		<item>MACAO[MO]</item>
+		<item>MACEDONIA[MK]</item>
+		<item>MADAGASCAR[MG]</item>
+		<item>MALASIA[MY]</item>
+		<item>MALAUI[MW]</item>
+		<item>MALDIVAS[MV]</item>
+		<item>MALI[ML]</item>
+		<item>MALTA[MT]</item>
+		<item>MARRUECOS[MA]</item>
+		<item>MARTINICA[MQ]</item>
+		<item>MAURICIO[MU]</item>
+		<item>MAURITANIA[MR]</item>
+		<item>MAYOTTE[YT]</item>
+		<item>MICRONESIA[FM]</item>
+		<item>MOLDAVIA[MD]</item>
+		<item>MONACO[MC]</item>
+		<item>MONGOLIA[MN]</item>
+		<item>MONTENEGRO[ME]</item>
+		<item>MONTSERRAT[MS]</item>
+		<item>MOZAMBIQUE[MZ]</item>
+		<item>NAMIBIA[NA]</item>
+		<item>NAURU[NR]</item>
+		<item>NEPAL[NP]</item>
+		<item>NICARAGUA[NI]</item>
+		<item>NIGER[NE]</item>
+		<item>NIGERIA[NG]</item>
+		<item>NIUE[NU]</item>
+		<item>NORFOLK[NF]</item>
+		<item>NORUEGA[NO]</item>
+		<item>NUEVA CALEDONIA[NC]</item>
+		<item>NUEVA ZELANDA[NZ]</item>
+		<item>OMAN[OM]</item>
+		<item>PAKISTAN[PK]</item>
+		<item>PALAOS[PW]</item>
+		<item>PANAMA[PA]</item>
+		<item>PAPUA NUEVA GUINEA[PG]</item>
+		<item>PARAGUAY[PY]</item>
+		<item>POLINESIA FRANCESA[PF]</item>
+		<item>POLONIA[PL]</item>
+		<item>PORTUGAL[PT]</item>
+		<item>PUERTO RICO[PR]</item>
+		<item>QATAR[QA]</item>
+		<item>REPUBLICA CENTROAFRICANA[CF]</item>
+		<item>REPUBLICA CHECA[CZ]</item>
+		<item>REPUBLICA DEL CONGO[CG]</item>
+		<item>REPUBLICA DEMOCRATICA DEL CONGO[CD]</item>
+		<item>REPUBLICA DOMINICANA[DO]</item>
+		<item>REUNION[RE]</item>
+		<item>RUANDA[RW]</item>
+		<item>RUMANIA[RO]</item>
+		<item>RUSIA[RU]</item>
+		<item>SAHARA OCCIDENTAL[EH]</item>
+		<item>SAINT BARTHELEMY</item>
+		<item>SAINT MARTIN</item>
+		<item>SAMOA AMERICANA[AS]</item>
+		<item>SAMOA[WS]</item>
+		<item>SAN CRISTOBAL Y NIEVES[KN]</item>
+		<item>SAN MARINO[SM]</item>
+		<item>SAN PEDRO Y MIQUELON[PM]</item>
+		<item>SAN VICENTE Y LAS GRANADINAS[VC]</item>
+		<item>SANTA HELENA[SH]</item>
+		<item>SANTA LUCIA[LC]</item>
+		<item>SANTO TOME Y PRINCIPE[ST]</item>
+		<item>SENEGAL[SN]</item>
+		<item>SERBIA[RS]</item>
+		<item>SEYCHELLES[SC]</item>
+		<item>SIERRA LEONA[SL]</item>
+		<item>SINGAPUR[SG]</item>
+		<item>SIRIA[SY]</item>
+		<item>SOMALIA[SO]</item>
+		<item>SRI LANKA[LK]</item>
+		<item>SUAZILANDIA[SZ]</item>
+		<item>SUDAFRICA[ZA]</item>
+		<item>SUDAN[SD]</item>
+		<item>SUECIA[SE]</item>
+		<item>SUIZA[CH]</item>
+		<item>SURINAM[SR]</item>
+		<item>SVALBARD Y JAN MAYEN[SJ]</item>
+		<item>TAILANDIA[TH]</item>
+		<item>TAIWAN[TW]</item>
+		<item>TANZANIA[TZ]</item>
+		<item>TAYIKISTAN[TJ]</item>
+		<item>TERRITORIO BRITANICO DEL OCEANO INDICO[IO]</item>
+		<item>TERRITORIOS AUSTRALES FRANCESES[TF]</item>
+		<item>TERRITORIOS PALESTINOS[PS]</item>
+		<item>TIMOR ORIENTAL[TL]</item>
+		<item>TOGO[TG]</item>
+		<item>TOKELAU[TK]</item>
+		<item>TONGA[TO]</item>
+		<item>TRINIDAD Y TOBAGO[TT]</item>
+		<item>TUNEZ[TN]</item>
+		<item>TURKMENISTAN[TM]</item>
+		<item>TURQUIA[TR]</item>
+		<item>TUVALU[TV]</item>
+		<item>UCRANIA[UA]</item>
+		<item>UGANDA[UG]</item>
+		<item>UNION EUROPEA[EU]</item>
+		<item>UNION SOVIETICA[SU]</item>
+		<item>URUGUAY[UY]</item>
+		<item>UZBEKISTAN[UZ]</item>
+		<item>VANUATU[VU]</item>
+		<item>VENEZUELA[VE]</item>
+		<item>VIETNAM[VN]</item>
+		<item>WALLIS Y FUTUNA[WF]</item>
+		<item>YEMEN[YE]</item>
+		<item>YIBUTI[DJ]</item>
+		<item>YUGOSLAVIA</item>
+		<item>ZAMBIA[ZM]</item>
+		<item>ZIMBABUE[ZW]</item>
+	</string-array>
+	<string-array name="countryvalues">
+	    <item>AR</item>
+		<item>BR</item>
+		<item>CL</item>
+		<item>CO</item>
+		<item>EC</item>
+		<item>US</item>
+		<item>PE</item>
+		<item>MX</item>
+		<item>-</item>
+		<item>AF</item>
+		<item>AX</item>
+		<item>AL</item>
+		<item>DE</item>
+		<item>AD</item>
+		<item>AO</item>
+		<item>AI</item>
+		<item>AQ</item>
+		<item>AG</item>
+		<item>AN</item>
+		<item>SA</item>
+		<item>DZ</item>
+		<item>AM</item>
+		<item>AW</item>
+		<item>AU</item>
+		<item>AT</item>
+		<item>AZ</item>
+		<item>BS</item>
+		<item>BH</item>
+		<item>BD</item>
+		<item>BB</item>
+		<item>BE</item>
+		<item>BZ</item>
+		<item>BJ</item>
+		<item>BM</item>
+		<item>BY</item>
+		<item>MM</item>
+		<item>BO</item>
+		<item>BA</item>
+		<item>BW</item>
+		<item>BN</item>
+		<item>BG</item>
+		<item>BF</item>
+		<item>BI</item>
+		<item>BT</item>
+		<item>CV</item>
+		<item>KH</item>
+		<item>CM</item>
+		<item>CA</item>
+		<item>TD</item>
+		<item>CN</item>
+		<item>CY</item>
+		<item>VA</item>
+		<item>KM</item>
+		<item>KP</item>
+		<item>KR</item>
+		<item>CI</item>
+		<item>CR</item>
+		<item>HR</item>
+		<item>CU</item>
+		<item>DK</item>
+		<item>DM</item>
+		<item>EG</item>
+		<item>SV</item>
+		<item>AE</item>
+		<item>ER</item>
+		<item>SK</item>
+		<item>SI</item>
+		<item>ES</item>
+		<item>EE</item>
+		<item>ET</item>
+		<item>PH</item>
+		<item>FI</item>
+		<item>FJ</item>
+		<item>FX</item>
+		<item>FR</item>
+		<item>GA</item>
+		<item>GM</item>
+		<item>GE</item>
+		<item>GH</item>
+		<item>GI</item>
+		<item>GD</item>
+		<item>GR</item>
+		<item>GL</item>
+		<item>GP</item>
+		<item>GU</item>
+		<item>GT</item>
+		<item>GF</item>
+		<item>GG</item>
+		<item>GQ</item>
+		<item>GW</item>
+		<item>GN</item>
+		<item>GY</item>
+		<item>HT</item>
+		<item>NL</item>
+		<item>HN</item>
+		<item>HK</item>
+		<item>HU</item>
+		<item>IN</item>
+		<item>ID</item>
+		<item>GB</item>
+		<item>IR</item>
+		<item>IQ</item>
+		<item>IE</item>
+		<item>BV</item>
+		<item>IM</item>
+		<item>CX</item>
+		<item>IS</item>
+		<item>KY</item>
+		<item>CC</item>
+		<item>CK</item>
+		<item>FO</item>
+		<item>IG</item>
+		<item>GS</item>
+		<item>HM</item>
+		<item>FK</item>
+		<item>MP</item>
+		<item>MH</item>
+		<item>PN</item>
+		<item>SB</item>
+		<item>TC</item>
+		<item>UM</item>
+		<item>VG</item>
+		<item>VI</item>
+		<item>IL</item>
+		<item>IT</item>
+		<item>JM</item>
+		<item>JP</item>
+		<item>JE</item>
+		<item>JO</item>
+		<item>KZ</item>
+		<item>KE</item>
+		<item>KG</item>
+		<item>KI</item>
+		<item>KW</item>
+		<item>LA</item>
+		<item>LS</item>
+		<item>LV</item>
+		<item>LB</item>
+		<item>LR</item>
+		<item>LY</item>
+		<item>LI</item>
+		<item>LT</item>
+		<item>LU</item>
+		<item>MO</item>
+		<item>MK</item>
+		<item>MG</item>
+		<item>MY</item>
+		<item>MW</item>
+		<item>MV</item>
+		<item>ML</item>
+		<item>MT</item>
+		<item>MA</item>
+		<item>MQ</item>
+		<item>MU</item>
+		<item>MR</item>
+		<item>YT</item>
+		<item>FM</item>
+		<item>MD</item>
+		<item>MC</item>
+		<item>MN</item>
+		<item>ME</item>
+		<item>MS</item>
+		<item>MZ</item>
+		<item>NA</item>
+		<item>NR</item>
+		<item>NP</item>
+		<item>NI</item>
+		<item>NE</item>
+		<item>NG</item>
+		<item>NU</item>
+		<item>NF</item>
+		<item>NO</item>
+		<item>NC</item>
+		<item>NZ</item>
+		<item>OM</item>
+		<item>PK</item>
+		<item>PW</item>
+		<item>PA</item>
+		<item>PG</item>
+		<item>PY</item>
+		<item>PF</item>
+		<item>PL</item>
+		<item>PT</item>
+		<item>PR</item>
+		<item>QA</item>
+		<item>CF</item>
+		<item>CZ</item>
+		<item>CG</item>
+		<item>CD</item>
+		<item>DO</item>
+		<item>RE</item>
+		<item>RW</item>
+		<item>RO</item>
+		<item>RU</item>
+		<item>EH</item>
+		<item>BL</item>
+		<item>MF</item>
+		<item>AS</item>
+		<item>WS</item>
+		<item>KN</item>
+		<item>SM</item>
+		<item>PM</item>
+		<item>VC</item>
+		<item>SH</item>
+		<item>LC</item>
+		<item>ST</item>
+		<item>SN</item>
+		<item>RS</item>
+		<item>SC</item>
+		<item>SL</item>
+		<item>SG</item>
+		<item>SY</item>
+		<item>SO</item>
+		<item>LK</item>
+		<item>SZ</item>
+		<item>ZA</item>
+		<item>SD</item>
+		<item>SE</item>
+		<item>CH</item>
+		<item>SR</item>
+		<item>SJ</item>
+		<item>TH</item>
+		<item>TW</item>
+		<item>TZ</item>
+		<item>TJ</item>
+		<item>IO</item>
+		<item>TF</item>
+		<item>PS</item>
+		<item>TL</item>
+		<item>TG</item>
+		<item>TK</item>
+		<item>TO</item>
+		<item>TT</item>
+		<item>TN</item>
+		<item>TM</item>
+		<item>TR</item>
+		<item>TV</item>
+		<item>UA</item>
+		<item>UG</item>
+		<item>EU</item>
+		<item>SU</item>
+		<item>UY</item>
+		<item>UZ</item>
+		<item>VU</item>
+		<item>VE</item>
+		<item>VN</item>
+		<item>WF</item>
+		<item>YE</item>
+		<item>DJ</item>
+		<item>YU</item>
+		<item>ZM</item>
+		<item>ZW</item>
+	</string-array> 
+	<!-- notfiby -->
+	<string-array name="notifyby">
+	    <item>Alerta en móvil</item>
+	    <item>Email</item>
+	    <item>Alerta+Email</item>
+	</string-array>
+	<string-array name="notifybyvalue">
+	    <item>0</item>
+	    <item>1</item>
+	    <item>2</item>
+	</string-array>
+	<!-- alert frequency list -->
+	<string-array name="frequency">
+	    <item>Diario</item>
+	    <item>Semanal</item>
+	</string-array>	
+	<string-array name="frequencyvalue">
+	    <item>D</item>
+	    <item>S</item>
+	</string-array>
+	<string-array name="alertaction">
+	    <item>Buscar</item>
+	    <item>Editar</item>
+	    <item>Eliminar</item>
+	</string-array>
+</resources>
